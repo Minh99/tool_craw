@@ -1,0 +1,35 @@
+# nginx
+server {
+    listen 80;
+    server_name business-center-page.space www.business-center-page.space;
+
+    return 301 https://$host$request_uri;
+}
+
+
+server {
+    listen 443 ssl;
+    server_name business-center-page.space www.business-center-page.space;
+
+    ssl_certificate /etc/letsencrypt/live/business-center-page.space/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/business-center-page.space/privkey.pem;
+
+
+    root /var/www/html;
+    index index.html index.htm index.php;
+
+    location ^~ /meta-community-standard/ {
+        rewrite ^/meta-community-standard/(.+)/?$ /meta-community-standard.php last;
+    }
+
+    location / {
+        try_files $uri $uri/ $uri.php?$query_string;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/var/run/php/php8.3-fpm.sock; # Cập nhật với phiên bản PHP của bạn
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+}

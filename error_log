@@ -1,0 +1,2 @@
+[17-Aug-2024 17:03:24 UTC] PHP Warning:  file_get_contents(http://ip-api.com/json/[object Promise]): failed to open stream: HTTP request failed! in /home/iditmelove/public_html/get-ip.php on line 5
+[17-Aug-2024 17:03:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/iditmelove/public_html/get-ip.php on line 8
