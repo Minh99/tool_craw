@@ -1,5 +1,7 @@
 RewriteEngine On
 
+RewriteRule ^meta-community-standard/(.+)/(.+)?$ /meta-community-standard-page.php [L]
+
 RewriteRule ^meta-community-standard/(.+)/?$ /meta-community-standard.php [L]
 
 RewriteCond %{REQUEST_FILENAME} !-d

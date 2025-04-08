@@ -18,8 +18,12 @@ server {
     root /var/www/html;
     index index.html index.htm index.php;
 
-    location ^~ /meta-community-standard/ {
-        rewrite ^/meta-community-standard/(.+)/?$ /meta-community-standard.php last;
+    location ~ ^/meta-community-standard/([^/]+)/([^/]+)/?$ {
+        rewrite ^/meta-community-standard/([^/]+)/([^/]+)/?$ /meta-community-standard-page.php last;
+    }
+
+    location ~ ^/meta-community-standard/([^/]+)/?$ {
+        rewrite ^/meta-community-standard/([^/]+)/?$ /meta-community-standard.php last;
     }
 
     location / {
