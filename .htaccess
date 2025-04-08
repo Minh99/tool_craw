@@ -1,12 +1,9 @@
 RewriteEngine On
 
-# Nếu có 2 tham số abc và 123, chuyển hướng tới meta-community-standard.php
-RewriteRule ^meta-community-standard/([^/]+)/([^/]+)/?$ /meta-community-standard.php [L]
+RewriteRule ^meta-community-standard/(.+)/(.+)?$ /meta-community-standard-page.php [L]
 
-# Nếu chỉ có 1 tham số abc, chuyển hướng tới giao diện Hello World
-RewriteRule ^meta-community-standard/([^/]+)/?$ /layer2.php [L]
+RewriteRule ^meta-community-standard/(.+)/?$ /meta-community-standard.php [L]
 
-# Đảm bảo không gặp phải các lỗi 404 khi yêu cầu các file PHP mà không có đuôi .php
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
