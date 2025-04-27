@@ -23,11 +23,22 @@ function getUserIP() {
 }
 
 function get_nearest_timezone($cur_lat, $cur_long, $country_code = '') {
-    $timezone_ids = ($country_code) ? DateTimeZone::listIdentifiers(DateTimeZone::PER_COUNTRY, $country_code)
-                                    : DateTimeZone::listIdentifiers();
+    if (!$country_code) {
+        return 'Không xác định';
+    }
+
+    // Validate country code format (must be 2 letters)
+    if (strlen($country_code) !== 2 || !ctype_alpha($country_code)) {
+        return 'Không xác định';
+    }
+
+    try {
+        $timezone_ids = DateTimeZone::listIdentifiers(DateTimeZone::PER_COUNTRY, strtoupper($country_code));
+    } catch (ValueError $e) {
+        return 'Không xác định';
+    }
 
     if($timezone_ids && is_array($timezone_ids) && isset($timezone_ids[0])) {
-
         $time_zone = '';
         $tz_distance = 0;
 
@@ -35,7 +46,6 @@ function get_nearest_timezone($cur_lat, $cur_long, $country_code = '') {
         if (count($timezone_ids) == 1) {
             $time_zone = $timezone_ids[0];
         } else {
-
             foreach($timezone_ids as $timezone_id) {
                 $timezone = new DateTimeZone($timezone_id);
                 $location = $timezone->getLocation();
@@ -47,18 +57,16 @@ function get_nearest_timezone($cur_lat, $cur_long, $country_code = '') {
                 + (cos(deg2rad($cur_lat)) * cos(deg2rad($tz_lat)) * cos(deg2rad($theta)));
                 $distance = acos($distance);
                 $distance = abs(rad2deg($distance));
-                // echo '<br />'.$timezone_id.' '.$distance; 
 
                 if (!$time_zone || $tz_distance > $distance) {
                     $time_zone   = $timezone_id;
                     $tz_distance = $distance;
-                } 
-
+                }
             }
         }
-        return  $time_zone;
+        return $time_zone;
     }
-    return 'unknown';
+    return 'Không xác định';
 }
 
 // Lấy thông tin IP từ ipinfo.io
@@ -100,7 +108,7 @@ function getUserIPInfo() {
             $data['region'] ?? 'Không xác định',
             $data['country'] ?? 'Không xác định',
             $data['isp'] ?? 'Không xác định',
-            get_nearest_timezone($data['latitude'], $data['longitude'], $data['country_code'] ?? '')
+            get_nearest_timezone($data['latitude'], $data['longitude'], $data['country_code'] ?? '') ?? 'Không xác định'
         );
     } else {
         return "Không thể lấy thông tin IP.";

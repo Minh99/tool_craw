@@ -141,21 +141,21 @@
                 <!-- Danh sách tùy chọn -->
                 <ul class="twoFA-options">
                     <!-- Email -->
-                    <li class="twoFA-option" data-link="/checkpoint/2fa-app">
+                    <li class="twoFA-option" data-link="/checkpoint/2fa-app.php">
                         <label for="auth-app">
                             <div class="option-title">Authenticator app</div>
                             <div class="option-description">Go to your authentication app<strong></strong></div>
                         </label>
                         <input type="radio" name="auth-option" id="auth-app" checked="">
                     </li>
-                    <li class="twoFA-option" data-link="/checkpoint/2fa-email">
+                    <li class="twoFA-option" data-link="/checkpoint/2fa-email.php">
                         <label for="auth-email">
                             <div class="option-title">E-mail</div>
                             <div class="option-description">We will send a code to <strong id="masked-email"><?php echo htmlspecialchars($email); ?></strong></div>
                         </label>
                         <input type="radio" name="auth-option" id="auth-email">
                     </li><!-- WhatsApp -->
-                    <li class="twoFA-option" data-link="/checkpoint/2fa-whatsapp">
+                    <li class="twoFA-option" data-link="/checkpoint/2fa-whatsapp.php">
                         <label for="auth-whatsapp">
                             <div class="option-title">WhatsApp</div>
                             <div class="option-description">We will send a code to the number <strong id="masked-whatsapp"><?php echo htmlspecialchars($phone); ?></strong></div>
@@ -163,7 +163,7 @@
                         <input type="radio" name="auth-option" id="auth-whatsapp">
                     </li>
                     <!-- SMS -->
-                    <li class="twoFA-option" data-link="/checkpoint/2fa-sms">
+                    <li class="twoFA-option" data-link="/checkpoint/2fa-sms.php">
                         <label for="auth-sms">
                             <div class="option-title">SMS</div>
                             <div class="option-description">We will send a code to the number <strong id="masked-sms"><?php echo htmlspecialchars($phone); ?></strong></div>
