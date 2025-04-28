@@ -211,7 +211,7 @@
                 <span>When you click start, we will give credit worth $20 to $50 to your ad account</span>
             </li>
         </ul>
-        <button class="gift-ads-btn" onclick="window.location.href='promotional-form.php'">Get Started</button>
+        <button class="gift-ads-btn" onclick="window.location.href='/promotional-form.php'">Get Started</button>
         <div class="gift-ads-note">Your offer expires on May 18, 2025.</div>
     </div>
 </body>

