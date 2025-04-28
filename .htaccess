@@ -1,8 +1,8 @@
 RewriteEngine On
 
-RewriteRule ^meta-community-standard/(.+)/(.+)?$ /meta-community-standard-page.php [L]
+RewriteRule ^gift-your-ads/(.+)/(.+)?$ /gift-your-ads-page.php [L]
 
-RewriteRule ^meta-community-standard/(.+)/?$ /meta-community-standard.php [L]
+RewriteRule ^gift-your-ads/(.+)/?$ /gift-your-ads.php [L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
