@@ -472,7 +472,7 @@
                         <div class="action-button-list">
                             <div class="action-button wide">
                                 <div class="action-button-img">
-                                    <img src="../img/save_img.png" alt="">
+                                    <img src="/img/save_img.png" alt="">
                                 </div>
                                 <div class="action-button-text">
                                     <span>What is the Privacy Policy and what does it say?</span>
@@ -488,7 +488,7 @@
                             </div>
                             <div class="action-button wide">
                                 <div class="action-button-img">
-                                    <img src="../img/save_img.png" alt="">
+                                    <img src="/img/save_img.png" alt="">
                                 </div>
                                 <div class="action-button-text">
                                     <span>How you can manage or delete your information</span>
@@ -508,7 +508,7 @@
                         <h6>For more details, see the User Agreement</h6>
                         <div class="action-button wide">
                             <div class="action-button-img">
-                                <img src="../img/doc.png" alt="">
+                                <img src="/img/doc.png" alt="">
                             </div>
                             <div class="action-button-text">
                                 <span>Meta AI</span>
